@@ -5,7 +5,6 @@ continuingMangas = ["chainsaw-man", "spy-x-family", "fuufu-ijou-koibito-miman", 
                     "komi-san-wa-komyushou-desu"]
 baseUrl = "https://mangajuice.com/manga/"
 
-
 mangas = {}
 
 
