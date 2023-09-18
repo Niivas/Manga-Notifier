@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+from selectolax.lexbor import LexborHTMLParser
 
 # import main
 MangaFetchUrl = 'https://japan-geeks.com/best-ongoing-manga/'
@@ -16,12 +16,14 @@ siteAcceptedNames = { 'One Piece': 'one-piece', 'Jujutsu Kaisen': 'jujutsu-kaise
                       'Dragon Ball Super': 'dragon-ball-super', 'Kaiju No. 8': 'kaiju-no',
                       'Boruto: Naruto Next Generations': 'boruto-naruto-next-generations',
                       'Spy × Family': 'spy-x-family', 'Kingdom': 'kingdom', 'Berserk': 'berserk',
-                      'Hunter x Hunter': 'hunter-x-hunter', 'Vagabond': 'vagabond' }
+                      'Hunter x Hunter': 'hunter-x-hunter', 'Vagabond': 'vagabond',
+                      'Komi Cant Communicate': 'komi-san-wa-komyushou-desu', 'Rent a Girlfriend': 'rent-a-girlfriend',
+                      'More Than a Married Couple But Not Lovers': 'fuufu-ijou-koibito-miman'}
 
 """
 def parseName(name):
     name = name.lower()
-    res = []
+    res = [ ]
     for char in name:
         if char.isalnum():
             res.append(char)
@@ -37,23 +39,24 @@ def parseUrl(url):
 
 for manga in BestContinuingMangas:
     searchPage = requests.get(MangaSearchUrl + manga)
-    searchSoup = BeautifulSoup(searchPage.content, "lxml")
-    if searchSoup.find('h1', class_="page-title"):
+    searchSoup = LexborHTMLParser(searchPage.text)
+    if searchSoup.css_first('h1.page-title', default=False):
         continue
-    searchResults = searchSoup.find_all('h4')
+    searchResults = searchSoup.css('div.Latest_chapter_update')
 
     for result in searchResults:
-        elementA = result.find('a')
-        title = elementA.text
-        mangaUrl = elementA.get('href', None)
+        elementA = result.css_first('a')
+        title = elementA.attrs.get('title', None)
+        mangaUrl = elementA.attrs.get('href', None)
         if not title or not mangaUrl:
             continue
         if parseName(title) == parseName(manga):
-            siteAcceptedNames[ manga ] = parseUrl(mangaUrl)
+            # siteAcceptedNames[ manga ] = parseUrl(mangaUrl)
+            print(title)
             break
-
-print(siteAcceptedNames)
 """
+# print(siteAcceptedNames)
+
 """
 fetchPage = requests.get(MangaFetchUrl)
 fetchSoup = BeautifulSoup(fetchPage.content, 'lxml')
