@@ -1,6 +1,7 @@
 import requests
 from selectolax.lexbor import LexborHTMLParser
 import time
+import json
 import os
 
 baseUrl = "https://mangajuice.com/manga/"
@@ -32,7 +33,7 @@ mangas = {
         }, 'Boruto: Naruto Next Generations': {
         'siteAcceptedName': 'boruto-naruto-next-generations', 'latestChapter': 80.0,
         'latestChapterLink': 'https://mangajuice.com/chapter/boruto-chapter-80/', 'chaptersAddedSinceYouLastRead': 0.0
-        }, 'Spy × Family': {
+        }, 'Spy X Family': {
         'siteAcceptedName': 'spy-x-family', 'latestChapter': 87.0,
         'latestChapterLink': 'https://mangajuice.com/chapter/spy-x-family-chapter-87/',
         'chaptersAddedSinceYouLastRead': 0.0
@@ -104,4 +105,4 @@ ti = time.time()
 fetchMangasInfo(mangas)
 tf = time.time()
 print(f"Time took for fetching updates of {len(mangas)} mangas: {tf-ti} seconds")
-print(mangas)
+print(json.dumps(mangas, indent=4))
