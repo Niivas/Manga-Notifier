@@ -5,6 +5,8 @@ import json
 import os
 
 baseUrl = "https://mangajuice.com/manga/"
+MangaUpdatesUrl = 'https://mangajuice.com/updates/'
+
 """
 mangas = {
     'One Piece': {
@@ -93,13 +95,52 @@ def getLatestChapterAndLink(mangaName):
     return latestChapter, latestChapterLink
 
 
-def fetchMangasInfo(mangaka):
+def fetchMangasInfoRespective(mangaka):
     for manga in mangaka:
         chapter, link = getLatestChapterAndLink(mangaka[manga]['siteAcceptedName'])
         previousChapter = mangaka[manga]['latestChapter']
         mangas[manga]["latestChapter"] = chapter
         mangas[manga]["latestChapterLink"] = link
         mangas[manga]["chaptersAddedSinceYouLastRead"] = chapter - previousChapter
+
+
+def getLatestChapterName(url):
+    n = len(url)
+    end = 0
+    for i in range(n - 2, -1, -1):
+        if url[i] == 'c' and end == 0:
+            end = i - 1
+        if url[i] == '/':
+            return url[i + 1:end]
+    return ''
+
+
+def fetchMangasInfo(mangaka):
+    MangaAcceptedNames = set()
+    sanToMangaName = { }
+    for manga in mangaka:
+        MangaAcceptedNames.add(mangaka[manga]['siteAcceptedName'])
+        sanToMangaName[mangaka[manga]['siteAcceptedName']] = manga
+    updatesPage = requests.get(MangaUpdatesUrl)
+    soup = LexborHTMLParser(updatesPage.text)
+    mangasInfo = soup.css('a.wrap-text')
+    recentlyUpdatedMangaCount = len(mangasInfo)
+    for i in range(1, recentlyUpdatedMangaCount, 2):
+        latestChapterUrl = mangasInfo[i].attrs.get('href', '')
+        mangaTitle = mangasInfo[i - 1].attrs.get('title', "")
+        name = getLatestChapterName(latestChapterUrl)
+        currentChapter = fetchLatestChapter(latestChapterUrl)
+        if name in MangaAcceptedNames:
+            previousChapter = mangaka[sanToMangaName[name]]['latestChapter']
+            mangaka[sanToMangaName[name]]['latestChapterLink'] = latestChapterUrl
+            mangaka[sanToMangaName[name]]['latestChapter'] = currentChapter
+            mangaka[sanToMangaName[name]]['chaptersAddedSinceYouLastRead'] = currentChapter - previousChapter
+        else:
+            mangaka[mangaTitle] = dict()
+            mangaka[mangaTitle]['siteAcceptedName'] = name
+            mangaka[mangaTitle]['latestChapter'] = currentChapter
+            mangaka[mangaTitle]['latestChapterLink'] = latestChapterUrl
+            mangaka[mangaTitle]['chaptersAddedSinceYouLastRead'] = 0
 
 
 previousMangaUpdatesFile = open(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier\results\Latest Manga Updates.txt', 'r')

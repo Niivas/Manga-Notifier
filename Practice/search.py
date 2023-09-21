@@ -1,9 +1,10 @@
 import requests
 from selectolax.lexbor import LexborHTMLParser
+import time
 
-# import main
 MangaFetchUrl = 'https://japan-geeks.com/best-ongoing-manga/'
 MangaSearchUrl = "https://mangajuice.com/?s="
+MangaUpdatesUrl = 'https://mangajuice.com/updates/'
 
 BestContinuingMangas = [ 'One Piece', 'Jujutsu Kaisen', 'My Hero Academia', 'Chainsaw Man', 'Dragon Ball Super',
                          'Kaiju No. 8', 'Boruto: Naruto Next Generations', 'One-Punch Man', 'Spy × Family', 'Yotsuba&!',
@@ -77,3 +78,16 @@ for mangaElement in mangaElements:
 
 print(BestContinuingMangas)
 """
+ti = time.time()
+searchPage = requests.get(MangaUpdatesUrl)
+
+soup = LexborHTMLParser(searchPage.text)
+
+As = soup.css('a.wrap-text')
+n = len(As)
+
+for i in range(1,n,2):
+    print(As[i].attrs.get('href',0))
+tf = time.time()
+
+print('time took for fetching latest manga updates: ', tf-ti)
