@@ -115,7 +115,7 @@ beforeFetchMangaCount = len(mangas)
 ti = time.time()
 fetchMangasInfo(mangas)
 tf = time.time()
-print(f"Time took for fetching updates of {len(mangas)} mangas: {tf - ti} seconds")
+#print(f"Time took for fetching updates of {len(mangas)} mangas: {tf - ti} seconds")
 
 afterFetchMangaCount = len(mangas)
 
@@ -130,10 +130,10 @@ ti = time.time()
 with open('Latest Manga Updates.txt', 'w') as file:
     file.write(json.dumps(mangas, indent=4))
 tf = time.time()
-print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.txt file: {tf - ti} seconds")
+#print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.txt file: {tf - ti} seconds")
 
 # Update the PDF with the latest manga information
 ti = time.time()
 updatePDF(mangas)
 tf = time.time()
-print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.pdf file: {tf - ti} seconds")
+#print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.pdf file: {tf - ti} seconds")
