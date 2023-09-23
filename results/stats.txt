@@ -1,5 +1,5 @@
 {
-    "Last Fetched": "16:42 2023-09-23",
+    "Last Fetched": "18:00 2023-09-23",
     "Chapters Added in the last Fetch": "0",
     "Current Total Mangas": "74",
     "Additional Info": "Mangas whose chapters got released recently are marked in green colour in the pdf"

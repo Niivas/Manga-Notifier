@@ -4,12 +4,13 @@ import time
 import json
 import os
 from datetime import datetime
-from UpdatePdf import updatePDF
+from UpdatePdf import updatePDF  # Assuming UpdatePdf.py has a function named updatePDF
 
+# Base URLs for manga information
 baseUrl = "https://mangajuice.com/manga/"
 MangaUpdatesUrl = 'https://mangajuice.com/updates/'
 
-
+# Function to extract the chapter number from the chapter link
 def fetchLatestChapter(latestChapterLink):
     n = len(latestChapterLink)
     found = False
@@ -27,6 +28,7 @@ def fetchLatestChapter(latestChapterLink):
     return float(chapterNumber[::-1])
 
 
+# Function to get the latest chapter and its link for a given manga
 def getLatestChapterAndLink(mangaName):
     htmlPage = requests.get(baseUrl + mangaName)
     soup = LexborHTMLParser(htmlPage.text)
@@ -36,6 +38,7 @@ def getLatestChapterAndLink(mangaName):
     return latestChapter, latestChapterLink
 
 
+# Function to update manga information for each mangaka
 def fetchMangasInfoRespective(mangaka):
     for manga in mangaka:
         chapter, link = getLatestChapterAndLink(mangaka[manga]['siteAcceptedName'])
@@ -45,6 +48,7 @@ def fetchMangasInfoRespective(mangaka):
         mangas[manga]["chaptersAddedSinceYouLastRead"] = chapter - previousChapter
 
 
+# Function to extract the chapter name from the chapter URL
 def getLatestChapterName(url):
     n = len(url)
     end = 0
@@ -56,9 +60,10 @@ def getLatestChapterName(url):
     return ''
 
 
+# Function to fetch manga information from the updates page
 def fetchMangasInfo(mangaka):
     MangaAcceptedNames = set()
-    sanToMangaName = { }
+    sanToMangaName = {}
     for manga in mangaka:
         MangaAcceptedNames.add(mangaka[manga]['siteAcceptedName'])
         sanToMangaName[mangaka[manga]['siteAcceptedName']] = manga
@@ -84,8 +89,9 @@ def fetchMangasInfo(mangaka):
             mangaka[mangaTitle]['chaptersAddedSinceYouLastRead'] = "0"
 
 
+# Function to update the statistics file with relevant information
 def updateStatsFile(prev, curr):
-    content = { }
+    content = {}
     curTimeAndDate = datetime.now().strftime("%H:%M %Y-%m-%d")
     content['Last Fetched'] = curTimeAndDate
     content['Chapters Added in the last Fetch'] = str(curr - prev)
@@ -96,13 +102,16 @@ def updateStatsFile(prev, curr):
         statsFile.write(json.dumps(content, indent=4))
 
 
+# Change the current working directory
 os.chdir(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier\results')
 
+# Load the previous manga updates from file
 with open(r'Latest Manga Updates.txt', 'r') as previousMangaUpdatesFile:
     mangas = json.loads(previousMangaUpdatesFile.read())
 
 beforeFetchMangaCount = len(mangas)
 
+# Fetch the latest manga updates
 ti = time.time()
 fetchMangasInfo(mangas)
 tf = time.time()
@@ -110,17 +119,20 @@ print(f"Time took for fetching updates of {len(mangas)} mangas: {tf - ti} second
 
 afterFetchMangaCount = len(mangas)
 
+# Update the statistics file
 updateStatsFile(beforeFetchMangaCount, afterFetchMangaCount)
 
+# Sort the manga updates based on chapters added since last read
 mangas = dict(sorted(mangas.items(), key=lambda item: float(item[1]['chaptersAddedSinceYouLastRead']), reverse=True))
 
+# Write the updated manga information to the file
 ti = time.time()
 with open('Latest Manga Updates.txt', 'w') as file:
     file.write(json.dumps(mangas, indent=4))
 tf = time.time()
 print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.txt file: {tf - ti} seconds")
 
-
+# Update the PDF with the latest manga information
 ti = time.time()
 updatePDF(mangas)
 tf = time.time()
