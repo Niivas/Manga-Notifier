@@ -3,6 +3,8 @@ from selectolax.lexbor import LexborHTMLParser
 import time
 import json
 import os
+from datetime import datetime
+from UpdatePdf import updatePDF
 
 baseUrl = "https://mangajuice.com/manga/"
 MangaUpdatesUrl = 'https://mangajuice.com/updates/'
@@ -70,29 +72,56 @@ def fetchMangasInfo(mangaka):
         name = getLatestChapterName(latestChapterUrl)
         currentChapter = fetchLatestChapter(latestChapterUrl)
         if name in MangaAcceptedNames:
-            previousChapter = mangaka[sanToMangaName[name]]['latestChapter']
+            previousChapter = float(mangaka[sanToMangaName[name]]['latestChapter'])
             mangaka[sanToMangaName[name]]['latestChapterLink'] = latestChapterUrl
-            mangaka[sanToMangaName[name]]['latestChapter'] = currentChapter
-            mangaka[sanToMangaName[name]]['chaptersAddedSinceYouLastRead'] = currentChapter - previousChapter
+            mangaka[sanToMangaName[name]]['latestChapter'] = str(currentChapter)
+            mangaka[sanToMangaName[name]]['chaptersAddedSinceYouLastRead'] = str(currentChapter - previousChapter)
         else:
             mangaka[mangaTitle] = dict()
             mangaka[mangaTitle]['siteAcceptedName'] = name
-            mangaka[mangaTitle]['latestChapter'] = currentChapter
+            mangaka[mangaTitle]['latestChapter'] = str(currentChapter)
             mangaka[mangaTitle]['latestChapterLink'] = latestChapterUrl
-            mangaka[mangaTitle]['chaptersAddedSinceYouLastRead'] = 0
+            mangaka[mangaTitle]['chaptersAddedSinceYouLastRead'] = "0"
 
 
-previousMangaUpdatesFile = open(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier\results\Latest Manga Updates.txt', 'r')
-mangas = json.loads(previousMangaUpdatesFile.read())
+def updateStatsFile(prev, curr):
+    content = { }
+    curTimeAndDate = datetime.now().strftime("%H:%M %Y-%m-%d")
+    content['Last Fetched'] = curTimeAndDate
+    content['Chapters Added in the last Fetch'] = str(curr - prev)
+    content['Current Total Mangas'] = str(curr)
+    content['Additional Info'] = "Mangas whose chapters got released recently are marked in green colour in the pdf"
+
+    with open(r'stats.txt', 'w') as statsFile:
+        statsFile.write(json.dumps(content, indent=4))
+
+
+os.chdir(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier\results')
+
+with open(r'Latest Manga Updates.txt', 'r') as previousMangaUpdatesFile:
+    mangas = json.loads(previousMangaUpdatesFile.read())
+
+beforeFetchMangaCount = len(mangas)
+
 ti = time.time()
 fetchMangasInfo(mangas)
 tf = time.time()
 print(f"Time took for fetching updates of {len(mangas)} mangas: {tf - ti} seconds")
-previousMangaUpdatesFile.close()
 
-os.chdir(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier\results')
+afterFetchMangaCount = len(mangas)
+
+updateStatsFile(beforeFetchMangaCount, afterFetchMangaCount)
+
+mangas = dict(sorted(mangas.items(), key=lambda item: float(item[1]['chaptersAddedSinceYouLastRead']), reverse=True))
+
 ti = time.time()
 with open('Latest Manga Updates.txt', 'w') as file:
     file.write(json.dumps(mangas, indent=4))
 tf = time.time()
 print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.txt file: {tf - ti} seconds")
+
+
+ti = time.time()
+updatePDF(mangas)
+tf = time.time()
+print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.pdf file: {tf - ti} seconds")
