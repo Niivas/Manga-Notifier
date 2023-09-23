@@ -13,8 +13,8 @@
     },
     "My Hero Academia": {
         "siteAcceptedName": "my-hero-academia",
-        "latestChapter": 400.0,
-        "latestChapterLink": "https://mangajuice.com/chapter/my-hero-academia-chapter-400/",
+        "latestChapter": 401.0,
+        "latestChapterLink": "https://mangajuice.com/chapter/my-hero-academia-chapter-401/",
         "chaptersAddedSinceYouLastRead": 0.0
     },
     "Chainsaw Man": {
@@ -343,8 +343,8 @@
     },
     "Magic Emperor": {
         "siteAcceptedName": "magic-emperor",
-        "latestChapter": 447.0,
-        "latestChapterLink": "https://mangajuice.com/chapter/magic-emperor-chapter-447/",
+        "latestChapter": 448.0,
+        "latestChapterLink": "https://mangajuice.com/chapter/magic-emperor-chapter-448/",
         "chaptersAddedSinceYouLastRead": 0.0
     },
     "Mercenary Enrollment": {
@@ -435,6 +435,12 @@
         "siteAcceptedName": "doctors-rebirth",
         "latestChapter": 126.0,
         "latestChapterLink": "https://mangajuice.com/chapter/doctors-rebirth-chapter-126/",
+        "chaptersAddedSinceYouLastRead": 0.0
+    },
+    "Mato Seihei no Slave": {
+        "siteAcceptedName": "mato-seihei-no-slave",
+        "latestChapter": 116.0,
+        "latestChapterLink": "https://mangajuice.com/chapter/mato-seihei-no-slave-chapter-116/",
         "chaptersAddedSinceYouLastRead": 0.0
     }
 }
