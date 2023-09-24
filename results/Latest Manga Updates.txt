@@ -1,4 +1,16 @@
 {
+    "Reincarnation of the Suicidal Battle God": {
+        "siteAcceptedName": "reincarnation-of-the-suicidal-battle-god",
+        "latestChapter": "92.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/reincarnation-of-the-suicidal-battle-god-chapter-92/",
+        "chaptersAddedSinceYouLastRead": "1.0"
+    },
+    "Blue Lock": {
+        "siteAcceptedName": "blue-lock",
+        "latestChapter": "234.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/blue-lock-chapter-234/",
+        "chaptersAddedSinceYouLastRead": "1.0"
+    },
     "Existence": {
         "siteAcceptedName": "existence",
         "latestChapter": "62.0",
@@ -341,12 +353,6 @@
         "latestChapterLink": "https://mangajuice.com/chapter/a-returners-magic-should-be-special-chapter-237/",
         "chaptersAddedSinceYouLastRead": "0.0"
     },
-    "Reincarnation of the Suicidal Battle God": {
-        "siteAcceptedName": "reincarnation-of-the-suicidal-battle-god",
-        "latestChapter": "91.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/reincarnation-of-the-suicidal-battle-god-chapter-91/",
-        "chaptersAddedSinceYouLastRead": "0.0"
-    },
     "Swordmaster\u2019s Youngest Son": {
         "siteAcceptedName": "swordmasters-youngest-son",
         "latestChapter": "90.0",
@@ -357,12 +363,6 @@
         "siteAcceptedName": "magic-emperor",
         "latestChapter": "448.0",
         "latestChapterLink": "https://mangajuice.com/chapter/magic-emperor-chapter-448/",
-        "chaptersAddedSinceYouLastRead": "0.0"
-    },
-    "Blue Lock": {
-        "siteAcceptedName": "blue-lock",
-        "latestChapter": "233.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/blue-lock-chapter-233/",
         "chaptersAddedSinceYouLastRead": "0.0"
     },
     "My Dad Is Too Strong": {
