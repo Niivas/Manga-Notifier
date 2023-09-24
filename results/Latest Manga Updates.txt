@@ -1,4 +1,22 @@
 {
+    "Existence": {
+        "siteAcceptedName": "existence",
+        "latestChapter": "62.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/existence-chapter-62/",
+        "chaptersAddedSinceYouLastRead": "0.0"
+    },
+    "Mercenary Enrollment": {
+        "siteAcceptedName": "mercenary-enrollment",
+        "latestChapter": "155.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/mercenary-enrollment-chapter-155/",
+        "chaptersAddedSinceYouLastRead": "0.0"
+    },
+    "Reality Quest": {
+        "siteAcceptedName": "reality-quest",
+        "latestChapter": "104.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/reality-quest-chapter-104/",
+        "chaptersAddedSinceYouLastRead": "0.0"
+    },
     "One Piece": {
         "siteAcceptedName": "one-piece",
         "latestChapter": "1093.0",
@@ -335,28 +353,10 @@
         "latestChapterLink": "https://mangajuice.com/chapter/swordmasters-youngest-son-chapter-90/",
         "chaptersAddedSinceYouLastRead": "0.0"
     },
-    "Existence": {
-        "siteAcceptedName": "existence",
-        "latestChapter": "60.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/existence-chapter-60/",
-        "chaptersAddedSinceYouLastRead": "0.0"
-    },
     "Magic Emperor": {
         "siteAcceptedName": "magic-emperor",
         "latestChapter": "448.0",
         "latestChapterLink": "https://mangajuice.com/chapter/magic-emperor-chapter-448/",
-        "chaptersAddedSinceYouLastRead": "0.0"
-    },
-    "Mercenary Enrollment": {
-        "siteAcceptedName": "mercenary-enrollment",
-        "latestChapter": "154.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/mercenary-enrollment-chapter-154/",
-        "chaptersAddedSinceYouLastRead": "0.0"
-    },
-    "Reality Quest": {
-        "siteAcceptedName": "reality-quest",
-        "latestChapter": "103.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/reality-quest-chapter-103/",
         "chaptersAddedSinceYouLastRead": "0.0"
     },
     "Blue Lock": {
