@@ -10,6 +10,7 @@ from UpdatePdf import updatePDF  # Assuming UpdatePdf.py has a function named up
 baseUrl = "https://mangajuice.com/manga/"
 MangaUpdatesUrl = 'https://mangajuice.com/updates/'
 
+
 # Function to extract the chapter number from the chapter link
 def fetchLatestChapter(latestChapterLink):
     n = len(latestChapterLink)
@@ -60,10 +61,10 @@ def getLatestChapterName(url):
     return ''
 
 
-# Function to fetch manga information from the updates page
+# Function to fetch manga information from the update page
 def fetchMangasInfo(mangaka):
     MangaAcceptedNames = set()
-    sanToMangaName = {}
+    sanToMangaName = { }
     for manga in mangaka:
         MangaAcceptedNames.add(mangaka[manga]['siteAcceptedName'])
         sanToMangaName[mangaka[manga]['siteAcceptedName']] = manga
@@ -91,7 +92,7 @@ def fetchMangasInfo(mangaka):
 
 # Function to update the statistics file with relevant information
 def updateStatsFile(prev, curr):
-    content = {}
+    content = { }
     curTimeAndDate = datetime.now().strftime("%H:%M %Y-%m-%d")
     content['Last Fetched'] = curTimeAndDate
     content['Chapters Added in the last Fetch'] = str(curr - prev)
@@ -115,7 +116,7 @@ beforeFetchMangaCount = len(mangas)
 ti = time.time()
 fetchMangasInfo(mangas)
 tf = time.time()
-#print(f"Time took for fetching updates of {len(mangas)} mangas: {tf - ti} seconds")
+# print(f"Time took for fetching updates of {len(mangas)} mangas: {tf - ti} seconds")
 
 afterFetchMangaCount = len(mangas)
 
@@ -126,14 +127,14 @@ updateStatsFile(beforeFetchMangaCount, afterFetchMangaCount)
 mangas = dict(sorted(mangas.items(), key=lambda item: float(item[1]['chaptersAddedSinceYouLastRead']), reverse=True))
 
 # Write the updated manga information to the file
-ti = time.time()
+# ti = time.time()
 with open('Latest Manga Updates.txt', 'w') as file:
     file.write(json.dumps(mangas, indent=4))
-tf = time.time()
-#print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.txt file: {tf - ti} seconds")
+# tf = time.time()
+# print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.txt file: {tf - ti} seconds")
 
 # Update the PDF with the latest manga information
-ti = time.time()
+# ti = time.time()
 updatePDF(mangas)
-tf = time.time()
-#print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.pdf file: {tf - ti} seconds")
+# tf = time.time()
+# print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.pdf file: {tf - ti} seconds")
