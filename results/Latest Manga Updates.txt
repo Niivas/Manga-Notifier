@@ -447,6 +447,6 @@
         "siteAcceptedName": "guard-pass",
         "latestChapter": "107.0",
         "latestChapterLink": "https://mangajuice.com/chapter/guard-pass-chapter-107/",
-        "chaptersAddedSinceYouLastRead": "0"
+        "chaptersAddedSinceYouLastRead": "0.0"
     }
 }
