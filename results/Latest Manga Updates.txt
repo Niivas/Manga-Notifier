@@ -3,13 +3,13 @@
         "siteAcceptedName": "reincarnation-of-the-suicidal-battle-god",
         "latestChapter": "92.0",
         "latestChapterLink": "https://mangajuice.com/chapter/reincarnation-of-the-suicidal-battle-god-chapter-92/",
-        "chaptersAddedSinceYouLastRead": "1.0"
+        "chaptersAddedSinceYouLastRead": "0.0"
     },
     "Blue Lock": {
         "siteAcceptedName": "blue-lock",
         "latestChapter": "234.0",
         "latestChapterLink": "https://mangajuice.com/chapter/blue-lock-chapter-234/",
-        "chaptersAddedSinceYouLastRead": "1.0"
+        "chaptersAddedSinceYouLastRead": "0.0"
     },
     "Existence": {
         "siteAcceptedName": "existence",
@@ -442,5 +442,11 @@
         "latestChapter": "116.0",
         "latestChapterLink": "https://mangajuice.com/chapter/mato-seihei-no-slave-chapter-116/",
         "chaptersAddedSinceYouLastRead": "0.0"
+    },
+    "Guard Pass": {
+        "siteAcceptedName": "guard-pass",
+        "latestChapter": "107.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/guard-pass-chapter-107/",
+        "chaptersAddedSinceYouLastRead": "0"
     }
 }
