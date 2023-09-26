@@ -10,4 +10,4 @@ subprocess.run(["git", "add", "*"], cwd=repo_directory)
 # commit file
 subprocess.run(["git", "commit", "-m", commit_message], cwd=repo_directory)
 # push
-subprocess.run(["git", "push"], cwd=repo_directory)
+subprocess.run(["git", "push", "origin"], cwd=repo_directory)
