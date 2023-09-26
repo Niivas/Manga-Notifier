@@ -3,450 +3,525 @@
         "siteAcceptedName": "tower-of-god",
         "latestChapter": "590.0",
         "latestChapterLink": "https://mangajuice.com/chapter/tower-of-god-chapter-590/",
-        "chaptersAddedSinceYouLastRead": "1.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Reincarnation of the Suicidal Battle God": {
         "siteAcceptedName": "reincarnation-of-the-suicidal-battle-god",
         "latestChapter": "92.0",
         "latestChapterLink": "https://mangajuice.com/chapter/reincarnation-of-the-suicidal-battle-god-chapter-92/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Blue Lock": {
         "siteAcceptedName": "blue-lock",
         "latestChapter": "234.0",
         "latestChapterLink": "https://mangajuice.com/chapter/blue-lock-chapter-234/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Existence": {
         "siteAcceptedName": "existence",
         "latestChapter": "62.0",
         "latestChapterLink": "https://mangajuice.com/chapter/existence-chapter-62/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Mercenary Enrollment": {
         "siteAcceptedName": "mercenary-enrollment",
         "latestChapter": "155.0",
         "latestChapterLink": "https://mangajuice.com/chapter/mercenary-enrollment-chapter-155/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Reality Quest": {
         "siteAcceptedName": "reality-quest",
         "latestChapter": "104.0",
         "latestChapterLink": "https://mangajuice.com/chapter/reality-quest-chapter-104/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "One Piece": {
         "siteAcceptedName": "one-piece",
         "latestChapter": "1093.0",
         "latestChapterLink": "https://mangajuice.com/chapter/one-piece-chapter-1093/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "Jujutsu Kaisen": {
         "siteAcceptedName": "jujutsu-kaisen",
         "latestChapter": "236.0",
         "latestChapterLink": "https://mangajuice.com/chapter/jujutsu-kaisen-chapter-236/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "My Hero Academia": {
         "siteAcceptedName": "my-hero-academia",
         "latestChapter": "401.0",
         "latestChapterLink": "https://mangajuice.com/chapter/my-hero-academia-chapter-401/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "Chainsaw Man": {
         "siteAcceptedName": "chainsaw-man",
         "latestChapter": "143.0",
         "latestChapterLink": "https://mangajuice.com/chapter/chainsaw-man-chapter-143/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "Dragon Ball Super": {
         "siteAcceptedName": "dragon-ball-super",
         "latestChapter": "97.0",
         "latestChapterLink": "https://mangajuice.com/chapter/dragon-ball-super-chapter-97/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "Kaiju No. 8": {
         "siteAcceptedName": "kaiju-no",
         "latestChapter": "93.0",
         "latestChapterLink": "https://mangajuice.com/chapter/kaiju-no-chapter-93/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Boruto: Naruto Next Generations": {
         "siteAcceptedName": "boruto-naruto-next-generations",
         "latestChapter": "80.0",
         "latestChapterLink": "https://mangajuice.com/chapter/boruto-chapter-80/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "Spy X Family": {
         "siteAcceptedName": "spy-x-family",
         "latestChapter": "87.0",
         "latestChapterLink": "https://mangajuice.com/chapter/spy-x-family-chapter-87/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "Kingdom": {
         "siteAcceptedName": "kingdom",
         "latestChapter": "743.0",
         "latestChapterLink": "https://mangajuice.com/chapter/kingdom-chapter-743/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Berserk": {
         "siteAcceptedName": "berserk",
         "latestChapter": "374.0",
         "latestChapterLink": "https://mangajuice.com/chapter/berserk-chapter-374/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Hunter x Hunter": {
         "siteAcceptedName": "hunter-x-hunter",
         "latestChapter": "400.0",
         "latestChapterLink": "https://mangajuice.com/chapter/hunter-x-hunter-chapter-400/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Vagabond": {
         "siteAcceptedName": "vagabond",
         "latestChapter": "327.0",
         "latestChapterLink": "https://mangajuice.com/chapter/vagabon-chapter-327/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Komi Cant Communicate": {
         "siteAcceptedName": "komi-san-wa-komyushou-desu",
         "latestChapter": "419.0",
         "latestChapterLink": "https://mangajuice.com/chapter/komi-san-chapter-419/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "Rent a Girlfriend": {
         "siteAcceptedName": "rent-a-girlfriend",
         "latestChapter": "299.0",
         "latestChapterLink": "https://mangajuice.com/chapter/rent-a-girlfriend-chapter-299/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "More Than a Married Couple But Not Lovers": {
         "siteAcceptedName": "fuufu-ijou-koibito-miman",
         "latestChapter": "64.0",
         "latestChapterLink": "https://mangajuice.com/chapter/fuufu-ijou-koibito-miman-chapter-64/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "Shounen no Abyss": {
         "siteAcceptedName": "shounen-no-abys",
         "latestChapter": "150.0",
         "latestChapterLink": "https://mangajuice.com/chapter/shounen-no-abys-chapter-150/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "The Return Of The Crazy Demon": {
         "siteAcceptedName": "the-return-of-the-crazy-demon",
         "latestChapter": "90.0",
         "latestChapterLink": "https://mangajuice.com/chapter/the-return-of-the-crazy-demon-chapter-90/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "The Heavenly Demon Can\u2019t Live a Normal Life": {
         "siteAcceptedName": "the-heavenly-demon-cant-live-a-normal-life",
         "latestChapter": "86.0",
         "latestChapterLink": "https://mangajuice.com/chapter/the-heavenly-demon-cant-live-a-normal-life-chapter-86/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Lookism": {
         "siteAcceptedName": "lookism",
         "latestChapter": "467.0",
         "latestChapterLink": "https://mangajuice.com/chapter/lookism-chapter-467/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Trash of the Count\u2019s Family": {
         "siteAcceptedName": "trash-of-the-counts-family",
         "latestChapter": "102.0",
         "latestChapterLink": "https://mangajuice.com/chapter/trash-of-the-counts-family-chapter-102/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Kumo Desu ga, Nani ka?": {
         "siteAcceptedName": "kumo-desu-ga-nani-ka",
         "latestChapter": "66.0",
         "latestChapterLink": "https://mangajuice.com/chapter/kumo-desu-ga-nani-ka-chapter-66/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "One Punch-Man": {
         "siteAcceptedName": "one-punch-man",
         "latestChapter": "192.0",
         "latestChapterLink": "https://mangajuice.com/chapter/one-punch-man-chapter-192/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Black Summoner": {
         "siteAcceptedName": "black-summoner",
         "latestChapter": "124.0",
         "latestChapterLink": "https://mangajuice.com/chapter/black-summoner-chapter-124/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "The S-Classes That I Raised": {
         "siteAcceptedName": "the-s-classes-that-i-raised",
         "latestChapter": "104.0",
         "latestChapterLink": "https://mangajuice.com/chapter/the-s-classes-that-i-raised-chapter-104/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Return of the Legendary Spear Knight": {
         "siteAcceptedName": "return-of-the-legendary-spear-knight",
         "latestChapter": "107.0",
         "latestChapterLink": "https://mangajuice.com/chapter/return-of-the-legendary-spear-knight-chapter-107/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Juujika no Rokunin": {
         "siteAcceptedName": "juujika-no-rokunin",
         "latestChapter": "145.0",
         "latestChapterLink": "https://mangajuice.com/chapter/juujika-no-rokunin-chapter-145/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Tsukimichi": {
         "siteAcceptedName": "tsukimichi",
         "latestChapter": "88.0",
         "latestChapterLink": "https://mangajuice.com/chapter/tsukimichi-chapter-88/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Nano Machine": {
         "siteAcceptedName": "nano-machine",
         "latestChapter": "172.0",
         "latestChapterLink": "https://mangajuice.com/chapter/nano-machine-chapter-172/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "[Oshi no Ko]": {
         "siteAcceptedName": "oshi-no-ko",
         "latestChapter": "126.0",
         "latestChapterLink": "https://mangajuice.com/chapter/oshi-no-ko-chapter-126/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Damn Reincarnation": {
         "siteAcceptedName": "damn-reincarnations",
         "latestChapter": "68.0",
         "latestChapterLink": "https://mangajuice.com/chapter/damn-reincarnations-chapter-68/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "I Obtained a Mythic Item": {
         "siteAcceptedName": "i-obtained-a-mythic-item",
         "latestChapter": "72.0",
         "latestChapterLink": "https://mangajuice.com/chapter/i-obtained-a-mythic-item-chapter-72/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "The World After the Fall": {
         "siteAcceptedName": "the-world-after-the-fall",
         "latestChapter": "92.0",
         "latestChapterLink": "https://mangajuice.com/chapter/the-world-after-the-fall-chapter-92/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Tonikaku Kawaii": {
         "siteAcceptedName": "tonikaku-kawaii",
         "latestChapter": "248.0",
         "latestChapterLink": "https://mangajuice.com/chapter/tonikaku-kawaii-chapter-248/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Komi-san wa Komyushou Desu.": {
         "siteAcceptedName": "komi-san",
         "latestChapter": "421.0",
         "latestChapterLink": "https://mangajuice.com/chapter/komi-san-chapter-421/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "Omniscient Reader\u2019s Viewpoint": {
         "siteAcceptedName": "omniscient-reader",
         "latestChapter": "176.0",
         "latestChapterLink": "https://mangajuice.com/chapter/omniscient-reader-chapter-176/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "My Charms Are Wasted on Kuroiwa Medaka": {
         "siteAcceptedName": "my-charms-are-wasted-on-kuroiwa-medaka",
         "latestChapter": "105.0",
         "latestChapterLink": "https://mangajuice.com/chapter/my-charms-are-wasted-on-kuroiwa-medaka-chapter-105/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Kakkou no Iinazuke": {
         "siteAcceptedName": "kakkou-no-iinazuke",
         "latestChapter": "173.0",
         "latestChapterLink": "https://mangajuice.com/chapter/kakkou-no-iinazuke-chapter-173/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs": {
         "siteAcceptedName": "the-world-of-otome-games-is-tough-for-mobs",
         "latestChapter": "58.0",
         "latestChapterLink": "https://mangajuice.com/chapter/the-world-of-otome-games-is-tough-for-mobs-chapter-58/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Isekai Kenkokuki": {
         "siteAcceptedName": "isekai-kenkokuki",
         "latestChapter": "5.0",
         "latestChapterLink": "https://mangajuice.com/chapter/isekai-kenkokuki-chapter-61-5/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Gachiakuta": {
         "siteAcceptedName": "gachiakuta",
         "latestChapter": "70.0",
         "latestChapterLink": "https://mangajuice.com/chapter/gachiakuta-chapter-70/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Lonely Attack On A Different World": {
         "siteAcceptedName": "lonely-attack-on-a-different-world",
         "latestChapter": "201.0",
         "latestChapterLink": "https://mangajuice.com/chapter/lonely-attack-on-a-different-world-chapter-201/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Call of the Night": {
         "siteAcceptedName": "call-of-the-night",
         "latestChapter": "185.0",
         "latestChapterLink": "https://mangajuice.com/chapter/call-of-the-night-chapter-185/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Leveling With The Gods": {
         "siteAcceptedName": "leveling-with-the-gods",
         "latestChapter": "91.0",
         "latestChapterLink": "https://mangajuice.com/chapter/leveling-with-the-gods-chapter-91/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Eleceed": {
         "siteAcceptedName": "eleceed",
         "latestChapter": "264.0",
         "latestChapterLink": "https://mangajuice.com/chapter/eleceed-chapter-264/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Manager Kim": {
         "siteAcceptedName": "manager-kim",
         "latestChapter": "104.0",
         "latestChapterLink": "https://mangajuice.com/chapter/manager-kim-chapter-104/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "FFF-Class Trashero": {
         "siteAcceptedName": "fff-class-trashero",
         "latestChapter": "171.0",
         "latestChapterLink": "https://mangajuice.com/chapter/fff-class-trashero-chapter-171/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Villain to Kill": {
         "siteAcceptedName": "villain-to-kill",
         "latestChapter": "114.0",
         "latestChapterLink": "https://mangajuice.com/chapter/villain-to-kill-chapter-114/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Quest Supremacy": {
         "siteAcceptedName": "quest-supremacy",
         "latestChapter": "104.0",
         "latestChapterLink": "https://mangajuice.com/chapter/quest-supremacy-chapter-104/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Ayakashi Triangle": {
         "siteAcceptedName": "ayakashi-triangle",
         "latestChapter": "143.0",
         "latestChapterLink": "https://mangajuice.com/chapter/ayakashi-triangle-chapter-143/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Mission: Yozakura Family": {
         "siteAcceptedName": "mission-yozakura-family",
         "latestChapter": "194.0",
         "latestChapterLink": "https://mangajuice.com/chapter/mission-yozakura-family-chapter-194/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Undead Unluck": {
         "siteAcceptedName": "undead-unluck",
         "latestChapter": "175.0",
         "latestChapterLink": "https://mangajuice.com/chapter/undead-unluck-chapter-175/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Sakamoto Days": {
         "siteAcceptedName": "sakamoto-days",
         "latestChapter": "135.0",
         "latestChapterLink": "https://mangajuice.com/chapter/sakamoto-days-chapter-135/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "A Returner\u2019s Magic Should Be Special": {
         "siteAcceptedName": "a-returners-magic-should-be-special",
         "latestChapter": "237.0",
         "latestChapterLink": "https://mangajuice.com/chapter/a-returners-magic-should-be-special-chapter-237/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Swordmaster\u2019s Youngest Son": {
         "siteAcceptedName": "swordmasters-youngest-son",
         "latestChapter": "90.0",
         "latestChapterLink": "https://mangajuice.com/chapter/swordmasters-youngest-son-chapter-90/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Magic Emperor": {
         "siteAcceptedName": "magic-emperor",
         "latestChapter": "448.0",
         "latestChapterLink": "https://mangajuice.com/chapter/magic-emperor-chapter-448/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "My Dad Is Too Strong": {
         "siteAcceptedName": "my-dad-is-too-strong",
         "latestChapter": "148.0",
         "latestChapterLink": "https://mangajuice.com/chapter/my-dad-is-too-strong-chapter-148/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Skeleton Soldier Couldn\u2019T Protect The Dungeon": {
         "siteAcceptedName": "skeleton-soldier-couldnt-protect-the-dungeon",
         "latestChapter": "252.0",
         "latestChapterLink": "https://mangajuice.com/chapter/skeleton-soldier-couldnt-protect-the-dungeon-chapter-252/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Solo Max-Level Newbie": {
         "siteAcceptedName": "solo-max-level-newbie",
         "latestChapter": "118.0",
         "latestChapterLink": "https://mangajuice.com/chapter/solo-max-level-newbie-chapter-118/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "The Newbie is Too Strong": {
         "siteAcceptedName": "the-newbie-is-too-strong",
         "latestChapter": "74.0",
         "latestChapterLink": "https://mangajuice.com/chapter/the-newbie-is-too-strong-chapter-74/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Taming Master": {
         "siteAcceptedName": "taming-master",
         "latestChapter": "122.0",
         "latestChapterLink": "https://mangajuice.com/chapter/taming-master-chapter-122/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "My Dress-Up Darling": {
         "siteAcceptedName": "my-dress-up-darling",
         "latestChapter": "96.0",
         "latestChapterLink": "https://mangajuice.com/chapter/my-dress-up-darling-chapter-96/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
     },
     "Mushoku Tensei": {
         "siteAcceptedName": "mushoku-tensei",
         "latestChapter": "93.0",
         "latestChapterLink": "https://mangajuice.com/chapter/mushoku-tensei-chapter-93/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Tensei Shitara Ken Deshita": {
         "siteAcceptedName": "tensei-shitara-ken-deshita",
         "latestChapter": "70.0",
         "latestChapterLink": "https://mangajuice.com/chapter/tensei-shitara-ken-deshita-chapter-70/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Wind Breaker": {
         "siteAcceptedName": "wind-breaker",
         "latestChapter": "461.0",
         "latestChapterLink": "https://mangajuice.com/chapter/wind-breaker-chapter-461/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Sleeping Ranker": {
         "siteAcceptedName": "sleeping-ranker",
         "latestChapter": "87.0",
         "latestChapterLink": "https://mangajuice.com/chapter/sleeping-ranker-chapter-87/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Choujin X": {
         "siteAcceptedName": "choujin-x",
         "latestChapter": "4.0",
         "latestChapterLink": "https://mangajuice.com/chapter/choujin-x-chapter-41-4/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Doctor\u2019s Rebirth": {
         "siteAcceptedName": "doctors-rebirth",
         "latestChapter": "126.0",
         "latestChapterLink": "https://mangajuice.com/chapter/doctors-rebirth-chapter-126/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Mato Seihei no Slave": {
         "siteAcceptedName": "mato-seihei-no-slave",
         "latestChapter": "116.0",
         "latestChapterLink": "https://mangajuice.com/chapter/mato-seihei-no-slave-chapter-116/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     },
     "Guard Pass": {
         "siteAcceptedName": "guard-pass",
         "latestChapter": "107.0",
         "latestChapterLink": "https://mangajuice.com/chapter/guard-pass-chapter-107/",
-        "chaptersAddedSinceYouLastRead": "0.0"
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
     }
 }
