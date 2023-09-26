@@ -5,7 +5,7 @@ from datetime import datetime
 import requests
 from selectolax.lexbor import LexborHTMLParser
 
-from UpdatePdf import updatePDF  # Assuming UpdatePdf.py has a function named updatePDF
+from UpdatePdf import updatePdf  # Assuming UpdatePdf.py has a function named updatePDF
 
 # Base URLs for manga information
 baseUrl = "https://mangajuice.com/manga/"
@@ -88,15 +88,26 @@ def fetchMangasInfo(mangaka):
             mangaka[mangaTitle]['siteAcceptedName'] = name
             mangaka[mangaTitle]['latestChapter'] = str(currentChapter)
             mangaka[mangaTitle]['latestChapterLink'] = latestChapterUrl
-            mangaka[mangaTitle]['chaptersAddedSinceYouLastRead'] = "0"
+            mangaka[mangaTitle]['chaptersAddedSinceYouLastRead'] = "1"
+            mangaka[mangaTitle]['isFavorite'] = 'no'
 
 
 # Function to update the statistics file with relevant information
 def updateStatsFile(prev, curr):
+    favouriteMangaUpdatedInTheRecentFetch = 0
+    totalFavoriteMangas = 0
+    for manga in mangas:
+        if mangas[manga]['isFavorite'] == 'yes':
+            if mangas[manga]['chaptersAddedSinceYouLastRead'] != '0.0':
+                favouriteMangaUpdatedInTheRecentFetch += 1
+            totalFavoriteMangas += 1
+
     content = { }
     curTimeAndDate = datetime.now().strftime("%H:%M %Y-%m-%d")
-    content['Last Fetched'] = curTimeAndDate
-    content['Chapters Added in the last Fetch'] = str(curr - prev)
+    content['Mangas last fetched time'] = curTimeAndDate
+    content['Mangas Added in the recent Fetch'] = str(curr - prev)
+    content['Favourite mangas updated in the recent fetch'] = str(favouriteMangaUpdatedInTheRecentFetch)
+    content['Total favorite mangas'] = str(totalFavoriteMangas)
     content['Current Total Mangas'] = str(curr)
     content['Additional Info'] = "Mangas whose chapters got released recently are marked in green colour in the pdf"
 
@@ -105,7 +116,8 @@ def updateStatsFile(prev, curr):
 
 
 # Load the previous manga updates from file
-with open(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier\results\Latest Manga Updates.txt', 'r') as previousMangaUpdatesFile:
+with open(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier\results\Latest Manga Updates.txt',
+          'r') as previousMangaUpdatesFile:
     mangas = json.loads(previousMangaUpdatesFile.read())
 
 beforeFetchMangaCount = len(mangas)
@@ -133,6 +145,6 @@ with open(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier\results\Latest Manga Upd
 
 # Update the PDF with the latest manga information
 # ti = time.time()
-updatePDF(mangas)
+updatePdf(mangas)
 # tf = time.time()
 # print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.pdf file: {tf - ti} seconds")
