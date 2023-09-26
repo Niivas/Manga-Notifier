@@ -1,4 +1,10 @@
 {
+    "Tower of God": {
+        "siteAcceptedName": "tower-of-god",
+        "latestChapter": "590.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/tower-of-god-chapter-590/",
+        "chaptersAddedSinceYouLastRead": "1.0"
+    },
     "Reincarnation of the Suicidal Battle God": {
         "siteAcceptedName": "reincarnation-of-the-suicidal-battle-god",
         "latestChapter": "92.0",
@@ -309,12 +315,6 @@
         "siteAcceptedName": "villain-to-kill",
         "latestChapter": "114.0",
         "latestChapterLink": "https://mangajuice.com/chapter/villain-to-kill-chapter-114/",
-        "chaptersAddedSinceYouLastRead": "0.0"
-    },
-    "Tower of God": {
-        "siteAcceptedName": "tower-of-god",
-        "latestChapter": "589.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/tower-of-god-chapter-589/",
         "chaptersAddedSinceYouLastRead": "0.0"
     },
     "Quest Supremacy": {
