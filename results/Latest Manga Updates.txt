@@ -1,4 +1,46 @@
 {
+    "Jujutsu Kaisen": {
+        "siteAcceptedName": "jujutsu-kaisen",
+        "latestChapter": "237.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/jujutsu-kaisen-chapter-237/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
+    },
+    "My Hero Academia": {
+        "siteAcceptedName": "my-hero-academia",
+        "latestChapter": "402.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/my-hero-academia-chapter-402/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
+    },
+    "Kaiju No. 8": {
+        "siteAcceptedName": "kaiju-no",
+        "latestChapter": "94.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/kaiju-no-chapter-94/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Lookism": {
+        "siteAcceptedName": "lookism",
+        "latestChapter": "468.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/lookism-chapter-468/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Trash of the Count\u2019s Family": {
+        "siteAcceptedName": "trash-of-the-counts-family",
+        "latestChapter": "103.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/trash-of-the-counts-family-chapter-103/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Rent a Girlfriend": {
+        "siteAcceptedName": "rent-a-girlfriend",
+        "latestChapter": "300.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/rent-a-girlfriend-chapter-300/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
+    },
     "Tower of God": {
         "siteAcceptedName": "tower-of-god",
         "latestChapter": "590.0",
@@ -48,20 +90,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
     },
-    "Jujutsu Kaisen": {
-        "siteAcceptedName": "jujutsu-kaisen",
-        "latestChapter": "236.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/jujutsu-kaisen-chapter-236/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "yes"
-    },
-    "My Hero Academia": {
-        "siteAcceptedName": "my-hero-academia",
-        "latestChapter": "401.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/my-hero-academia-chapter-401/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "yes"
-    },
     "Chainsaw Man": {
         "siteAcceptedName": "chainsaw-man",
         "latestChapter": "143.0",
@@ -75,13 +103,6 @@
         "latestChapterLink": "https://mangajuice.com/chapter/dragon-ball-super-chapter-97/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
-    },
-    "Kaiju No. 8": {
-        "siteAcceptedName": "kaiju-no",
-        "latestChapter": "93.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/kaiju-no-chapter-93/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
     },
     "Boruto: Naruto Next Generations": {
         "siteAcceptedName": "boruto-naruto-next-generations",
@@ -132,13 +153,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
     },
-    "Rent a Girlfriend": {
-        "siteAcceptedName": "rent-a-girlfriend",
-        "latestChapter": "299.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/rent-a-girlfriend-chapter-299/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "yes"
-    },
     "More Than a Married Couple But Not Lovers": {
         "siteAcceptedName": "fuufu-ijou-koibito-miman",
         "latestChapter": "64.0",
@@ -164,20 +178,6 @@
         "siteAcceptedName": "the-heavenly-demon-cant-live-a-normal-life",
         "latestChapter": "86.0",
         "latestChapterLink": "https://mangajuice.com/chapter/the-heavenly-demon-cant-live-a-normal-life-chapter-86/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Lookism": {
-        "siteAcceptedName": "lookism",
-        "latestChapter": "467.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/lookism-chapter-467/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Trash of the Count\u2019s Family": {
-        "siteAcceptedName": "trash-of-the-counts-family",
-        "latestChapter": "102.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/trash-of-the-counts-family-chapter-102/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
