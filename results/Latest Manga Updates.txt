@@ -1,4 +1,67 @@
 {
+    "Mission: Yozakura Family": {
+        "siteAcceptedName": "mission-yozakura-family",
+        "latestChapter": "196.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/mission-yozakura-family-chapter-196/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Sakamoto Days": {
+        "siteAcceptedName": "sakamoto-days",
+        "latestChapter": "137.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/sakamoto-days-chapter-137/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Tower of God": {
+        "siteAcceptedName": "tower-of-god",
+        "latestChapter": "591.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/tower-of-god-chapter-591/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Reincarnation of the Suicidal Battle God": {
+        "siteAcceptedName": "reincarnation-of-the-suicidal-battle-god",
+        "latestChapter": "93.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/reincarnation-of-the-suicidal-battle-god-chapter-93/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "The Great Mage Returns After 4000 Years": {
+        "siteAcceptedName": "the-great-mage-returns-after-years",
+        "latestChapter": "189.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/the-great-mage-returns-after-years-chapter-189/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Your Talent Is Mine": {
+        "siteAcceptedName": "your-talent-is-mine",
+        "latestChapter": "62.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/your-talent-is-mine-chapter-62/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Mercenary Enrollment": {
+        "siteAcceptedName": "mercenary-enrollment",
+        "latestChapter": "156.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/mercenary-enrollment-chapter-156/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Record of Ragnarok": {
+        "siteAcceptedName": "record-of-ragnarok",
+        "latestChapter": "82.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/record-of-ragnarok-chapter-82/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Goblin Slayer": {
+        "siteAcceptedName": "goblin-slayer",
+        "latestChapter": "83.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/goblin-slayer-chapter-83/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
     "Jujutsu Kaisen": {
         "siteAcceptedName": "jujutsu-kaisen",
         "latestChapter": "237.0",
@@ -41,20 +104,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
     },
-    "Tower of God": {
-        "siteAcceptedName": "tower-of-god",
-        "latestChapter": "590.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/tower-of-god-chapter-590/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Reincarnation of the Suicidal Battle God": {
-        "siteAcceptedName": "reincarnation-of-the-suicidal-battle-god",
-        "latestChapter": "92.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/reincarnation-of-the-suicidal-battle-god-chapter-92/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
     "Blue Lock": {
         "siteAcceptedName": "blue-lock",
         "latestChapter": "234.0",
@@ -66,13 +115,6 @@
         "siteAcceptedName": "existence",
         "latestChapter": "62.0",
         "latestChapterLink": "https://mangajuice.com/chapter/existence-chapter-62/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Mercenary Enrollment": {
-        "siteAcceptedName": "mercenary-enrollment",
-        "latestChapter": "155.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/mercenary-enrollment-chapter-155/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
@@ -384,24 +426,10 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
-    "Mission: Yozakura Family": {
-        "siteAcceptedName": "mission-yozakura-family",
-        "latestChapter": "194.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/mission-yozakura-family-chapter-194/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
     "Undead Unluck": {
         "siteAcceptedName": "undead-unluck",
         "latestChapter": "175.0",
         "latestChapterLink": "https://mangajuice.com/chapter/undead-unluck-chapter-175/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Sakamoto Days": {
-        "siteAcceptedName": "sakamoto-days",
-        "latestChapter": "135.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/sakamoto-days-chapter-135/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
