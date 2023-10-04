@@ -1,4 +1,25 @@
 {
+    "Omniscient Reader\u2019s Viewpoint": {
+        "siteAcceptedName": "omniscient-reader",
+        "latestChapter": "178.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/omniscient-reader-chapter-178/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Villain to Kill": {
+        "siteAcceptedName": "villain-to-kill",
+        "latestChapter": "117.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/villain-to-kill-chapter-117/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Existence": {
+        "siteAcceptedName": "existence",
+        "latestChapter": "63.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/existence-chapter-63/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
     "Mission: Yozakura Family": {
         "siteAcceptedName": "mission-yozakura-family",
         "latestChapter": "196.0",
@@ -108,13 +129,6 @@
         "siteAcceptedName": "blue-lock",
         "latestChapter": "234.0",
         "latestChapterLink": "https://mangajuice.com/chapter/blue-lock-chapter-234/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Existence": {
-        "siteAcceptedName": "existence",
-        "latestChapter": "62.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/existence-chapter-62/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
@@ -321,13 +335,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
     },
-    "Omniscient Reader\u2019s Viewpoint": {
-        "siteAcceptedName": "omniscient-reader",
-        "latestChapter": "176.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/omniscient-reader-chapter-176/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
     "My Charms Are Wasted on Kuroiwa Medaka": {
         "siteAcceptedName": "my-charms-are-wasted-on-kuroiwa-medaka",
         "latestChapter": "105.0",
@@ -402,13 +409,6 @@
         "siteAcceptedName": "fff-class-trashero",
         "latestChapter": "171.0",
         "latestChapterLink": "https://mangajuice.com/chapter/fff-class-trashero-chapter-171/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Villain to Kill": {
-        "siteAcceptedName": "villain-to-kill",
-        "latestChapter": "114.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/villain-to-kill-chapter-114/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
