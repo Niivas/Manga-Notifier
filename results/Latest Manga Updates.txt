@@ -20,7 +20,7 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
-    "More Than a Married Couple But Not Lovers": {
+    "More Than a Couple, But less than Lovers": {
         "siteAcceptedName": "fuufu-ijou-koibito-miman",
         "latestChapter": "65.0",
         "latestChapterLink": "https://mangajuice.com/chapter/fuufu-ijou-koibito-miman-chapter-65/",
