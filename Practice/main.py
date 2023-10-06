@@ -111,12 +111,12 @@ def updateStatsFile(prev, curr):
     content['Current Total Mangas'] = str(curr)
     content['Additional Info'] = "Mangas whose chapters got released recently are marked in green colour in the pdf"
 
-    with open(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier\results\stats.txt', 'w') as statsFile:
+    with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\stats.txt', 'w') as statsFile:
         statsFile.write(json.dumps(content, indent=4))
 
 
 # Load the previous manga updates from file
-with open(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier\results\Latest Manga Updates.txt',
+with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt',
           'r') as previousMangaUpdatesFile:
     mangas = json.loads(previousMangaUpdatesFile.read())
 
@@ -138,7 +138,7 @@ mangas = dict(sorted(mangas.items(), key=lambda item: float(item[1]['chaptersAdd
 
 # Write the updated manga information to the file
 # ti = time.time()
-with open(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier\results\Latest Manga Updates.txt', 'w') as file:
+with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'w') as file:
     file.write(json.dumps(mangas, indent=4))
 # tf = time.time()
 # print(f"Time took for writing updates of {len(mangas)} mangas to Latest Manga Updates.txt file: {tf - ti} seconds")

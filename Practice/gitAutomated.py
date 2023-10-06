@@ -3,7 +3,7 @@ from datetime import datetime
 
 commit_message = f'Last Fetched: {datetime.now().strftime("%H:%M %Y-%m-%d")}'
 
-repo_directory = r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier'
+repo_directory = r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier'
 
 
 subprocess.run(["git", "add", "*"], cwd=repo_directory)

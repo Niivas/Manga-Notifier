@@ -1,4 +1,39 @@
 {
+    "Skeleton Soldier Couldn\u2019T Protect The Dungeon": {
+        "siteAcceptedName": "skeleton-soldier-couldnt-protect-the-dungeon",
+        "latestChapter": "254.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/skeleton-soldier-couldnt-protect-the-dungeon-chapter-254/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "The Eminence in Shadow": {
+        "siteAcceptedName": "the-eminence-in-shadow",
+        "latestChapter": "57.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/the-eminence-in-shadow-chapter-57/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "One Punch-Man": {
+        "siteAcceptedName": "one-punch-man",
+        "latestChapter": "193.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/one-punch-man-chapter-193/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "More Than a Married Couple But Not Lovers": {
+        "siteAcceptedName": "fuufu-ijou-koibito-miman",
+        "latestChapter": "65.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/fuufu-ijou-koibito-miman-chapter-65/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
+    },
+    "Juujika no Rokunin": {
+        "siteAcceptedName": "juujika-no-rokunin",
+        "latestChapter": "146.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/juujika-no-rokunin-chapter-146/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
     "Omniscient Reader\u2019s Viewpoint": {
         "siteAcceptedName": "omniscient-reader",
         "latestChapter": "178.0",
@@ -209,13 +244,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
     },
-    "More Than a Married Couple But Not Lovers": {
-        "siteAcceptedName": "fuufu-ijou-koibito-miman",
-        "latestChapter": "64.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/fuufu-ijou-koibito-miman-chapter-64/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "yes"
-    },
     "Shounen no Abyss": {
         "siteAcceptedName": "shounen-no-abys",
         "latestChapter": "150.0",
@@ -244,13 +272,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
-    "One Punch-Man": {
-        "siteAcceptedName": "one-punch-man",
-        "latestChapter": "192.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/one-punch-man-chapter-192/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
     "Black Summoner": {
         "siteAcceptedName": "black-summoner",
         "latestChapter": "124.0",
@@ -269,13 +290,6 @@
         "siteAcceptedName": "return-of-the-legendary-spear-knight",
         "latestChapter": "107.0",
         "latestChapterLink": "https://mangajuice.com/chapter/return-of-the-legendary-spear-knight-chapter-107/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Juujika no Rokunin": {
-        "siteAcceptedName": "juujika-no-rokunin",
-        "latestChapter": "145.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/juujika-no-rokunin-chapter-145/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
@@ -458,13 +472,6 @@
         "siteAcceptedName": "my-dad-is-too-strong",
         "latestChapter": "148.0",
         "latestChapterLink": "https://mangajuice.com/chapter/my-dad-is-too-strong-chapter-148/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Skeleton Soldier Couldn\u2019T Protect The Dungeon": {
-        "siteAcceptedName": "skeleton-soldier-couldnt-protect-the-dungeon",
-        "latestChapter": "252.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/skeleton-soldier-couldnt-protect-the-dungeon-chapter-252/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
