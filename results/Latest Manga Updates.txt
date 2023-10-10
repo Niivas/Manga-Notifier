@@ -1,4 +1,39 @@
 {
+    "Don\u2019t Toy with Me, Nagatoro-san!": {
+        "siteAcceptedName": "nagatoro-san",
+        "latestChapter": "137.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/nagatoro-san-chapter-137/",
+        "chaptersAddedSinceYouLastRead": "1",
+        "isFavorite": "no"
+    },
+    "Tower of God": {
+        "siteAcceptedName": "tower-of-god",
+        "latestChapter": "592.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/tower-of-god-chapter-592/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Mercenary Enrollment": {
+        "siteAcceptedName": "mercenary-enrollment",
+        "latestChapter": "157.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/mercenary-enrollment-chapter-157/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "The Lone Necromancer": {
+        "siteAcceptedName": "the-lone-necromancer",
+        "latestChapter": "5.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/the-lone-necromancer-chapter-106-5/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Mato Seihei no Slave": {
+        "siteAcceptedName": "mato-seihei-no-slave",
+        "latestChapter": "117.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/mato-seihei-no-slave-chapter-117/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
     "Skeleton Soldier Couldn\u2019T Protect The Dungeon": {
         "siteAcceptedName": "skeleton-soldier-couldnt-protect-the-dungeon",
         "latestChapter": "254.0",
@@ -69,13 +104,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
-    "Tower of God": {
-        "siteAcceptedName": "tower-of-god",
-        "latestChapter": "591.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/tower-of-god-chapter-591/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
     "Reincarnation of the Suicidal Battle God": {
         "siteAcceptedName": "reincarnation-of-the-suicidal-battle-god",
         "latestChapter": "93.0",
@@ -94,13 +122,6 @@
         "siteAcceptedName": "your-talent-is-mine",
         "latestChapter": "62.0",
         "latestChapterLink": "https://mangajuice.com/chapter/your-talent-is-mine-chapter-62/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Mercenary Enrollment": {
-        "siteAcceptedName": "mercenary-enrollment",
-        "latestChapter": "156.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/mercenary-enrollment-chapter-156/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
@@ -542,13 +563,6 @@
         "siteAcceptedName": "doctors-rebirth",
         "latestChapter": "126.0",
         "latestChapterLink": "https://mangajuice.com/chapter/doctors-rebirth-chapter-126/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Mato Seihei no Slave": {
-        "siteAcceptedName": "mato-seihei-no-slave",
-        "latestChapter": "116.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/mato-seihei-no-slave-chapter-116/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
