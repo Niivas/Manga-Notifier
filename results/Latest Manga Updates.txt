@@ -1,22 +1,57 @@
 {
+    "Wind Breaker": {
+        "siteAcceptedName": "wind-breaker",
+        "latestChapter": "466.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/wind-breaker-chapter-466/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Mushoku Tensei": {
+        "siteAcceptedName": "mushoku-tensei",
+        "latestChapter": "94.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/mushoku-tensei-chapter-94/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "My Hero Academia": {
+        "siteAcceptedName": "my-hero-academia",
+        "latestChapter": "403.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/my-hero-academia-chapter-403/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
+    },
+    "Kaiju No. 8": {
+        "siteAcceptedName": "kaiju-no",
+        "latestChapter": "95.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/kaiju-no-chapter-95/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Nano Machine": {
+        "siteAcceptedName": "nano-machine",
+        "latestChapter": "175.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/nano-machine-chapter-175/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Kakkou no Iinazuke": {
+        "siteAcceptedName": "kakkou-no-iinazuke",
+        "latestChapter": "176.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/kakkou-no-iinazuke-chapter-176/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
     "Don\u2019t Toy with Me, Nagatoro-san!": {
         "siteAcceptedName": "nagatoro-san",
         "latestChapter": "137.0",
         "latestChapterLink": "https://mangajuice.com/chapter/nagatoro-san-chapter-137/",
-        "chaptersAddedSinceYouLastRead": "1",
+        "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
     "Tower of God": {
         "siteAcceptedName": "tower-of-god",
         "latestChapter": "592.0",
         "latestChapterLink": "https://mangajuice.com/chapter/tower-of-god-chapter-592/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Mercenary Enrollment": {
-        "siteAcceptedName": "mercenary-enrollment",
-        "latestChapter": "157.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/mercenary-enrollment-chapter-157/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
@@ -145,20 +180,6 @@
         "latestChapterLink": "https://mangajuice.com/chapter/jujutsu-kaisen-chapter-237/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
-    },
-    "My Hero Academia": {
-        "siteAcceptedName": "my-hero-academia",
-        "latestChapter": "402.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/my-hero-academia-chapter-402/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "yes"
-    },
-    "Kaiju No. 8": {
-        "siteAcceptedName": "kaiju-no",
-        "latestChapter": "94.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/kaiju-no-chapter-94/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
     },
     "Lookism": {
         "siteAcceptedName": "lookism",
@@ -321,13 +342,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
-    "Nano Machine": {
-        "siteAcceptedName": "nano-machine",
-        "latestChapter": "172.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/nano-machine-chapter-172/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
     "[Oshi no Ko]": {
         "siteAcceptedName": "oshi-no-ko",
         "latestChapter": "126.0",
@@ -374,13 +388,6 @@
         "siteAcceptedName": "my-charms-are-wasted-on-kuroiwa-medaka",
         "latestChapter": "105.0",
         "latestChapterLink": "https://mangajuice.com/chapter/my-charms-are-wasted-on-kuroiwa-medaka-chapter-105/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Kakkou no Iinazuke": {
-        "siteAcceptedName": "kakkou-no-iinazuke",
-        "latestChapter": "173.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/kakkou-no-iinazuke-chapter-173/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
@@ -524,24 +531,10 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
     },
-    "Mushoku Tensei": {
-        "siteAcceptedName": "mushoku-tensei",
-        "latestChapter": "93.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/mushoku-tensei-chapter-93/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
     "Tensei Shitara Ken Deshita": {
         "siteAcceptedName": "tensei-shitara-ken-deshita",
         "latestChapter": "70.0",
         "latestChapterLink": "https://mangajuice.com/chapter/tensei-shitara-ken-deshita-chapter-70/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Wind Breaker": {
-        "siteAcceptedName": "wind-breaker",
-        "latestChapter": "461.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/wind-breaker-chapter-461/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
@@ -570,6 +563,13 @@
         "siteAcceptedName": "guard-pass",
         "latestChapter": "107.0",
         "latestChapterLink": "https://mangajuice.com/chapter/guard-pass-chapter-107/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Mercenary Enrollment": {
+        "siteAcceptedName": "mercenary-enrollment",
+        "latestChapter": "2.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/mercenary-enrollment-chapter-157-2/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     }
