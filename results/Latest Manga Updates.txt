@@ -1,4 +1,32 @@
 {
+    "Eleceed": {
+        "siteAcceptedName": "eleceed",
+        "latestChapter": "268.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/eleceed-chapter-268/",
+        "chaptersAddedSinceYouLastRead": "4.0",
+        "isFavorite": "no"
+    },
+    "Rent a Girlfriend": {
+        "siteAcceptedName": "rent-a-girlfriend",
+        "latestChapter": "302.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/rent-a-girlfriend-chapter-302/",
+        "chaptersAddedSinceYouLastRead": "2.0",
+        "isFavorite": "yes"
+    },
+    "Guard Pass": {
+        "siteAcceptedName": "guard-pass",
+        "latestChapter": "110.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/guard-pass-chapter-110/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Spy X Family": {
+        "siteAcceptedName": "spy-x-family",
+        "latestChapter": "88.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/spy-x-family-chapter-88/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
+    },
     "Wind Breaker": {
         "siteAcceptedName": "wind-breaker",
         "latestChapter": "466.0",
@@ -195,13 +223,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
-    "Rent a Girlfriend": {
-        "siteAcceptedName": "rent-a-girlfriend",
-        "latestChapter": "300.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/rent-a-girlfriend-chapter-300/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "yes"
-    },
     "Blue Lock": {
         "siteAcceptedName": "blue-lock",
         "latestChapter": "234.0",
@@ -241,13 +262,6 @@
         "siteAcceptedName": "boruto-naruto-next-generations",
         "latestChapter": "80.0",
         "latestChapterLink": "https://mangajuice.com/chapter/boruto-chapter-80/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "yes"
-    },
-    "Spy X Family": {
-        "siteAcceptedName": "spy-x-family",
-        "latestChapter": "87.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/spy-x-family-chapter-87/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
     },
@@ -433,13 +447,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
-    "Eleceed": {
-        "siteAcceptedName": "eleceed",
-        "latestChapter": "264.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/eleceed-chapter-264/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
     "Manager Kim": {
         "siteAcceptedName": "manager-kim",
         "latestChapter": "104.0",
@@ -556,13 +563,6 @@
         "siteAcceptedName": "doctors-rebirth",
         "latestChapter": "126.0",
         "latestChapterLink": "https://mangajuice.com/chapter/doctors-rebirth-chapter-126/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Guard Pass": {
-        "siteAcceptedName": "guard-pass",
-        "latestChapter": "107.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/guard-pass-chapter-107/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },

@@ -1,7 +1,7 @@
 {
-    "Mangas last fetched time": "18:00 2023-10-15",
+    "Mangas last fetched time": "10:00 2023-10-18",
     "Mangas Added in the recent Fetch": "0",
-    "Favourite mangas updated in the recent fetch": "0",
+    "Favourite mangas updated in the recent fetch": "1",
     "Total favorite mangas": "12",
     "Current Total Mangas": "82",
     "Additional Info": "Mangas whose chapters got released recently are marked in green colour in the pdf"
