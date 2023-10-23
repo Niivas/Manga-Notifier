@@ -141,7 +141,7 @@
         "latestChapterLink": "https://mangajuice.com/chapter/nagatoro-san-chapter-137/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no",
-        "image": ""
+        "image": "https://www.mangaread.org/wp-content/uploads/2023/10/Read-Manga-6-193x278.jpg"
     },
     "Tower of God": {
         "siteAcceptedName": "tower-of-god",
@@ -365,7 +365,7 @@
         "latestChapterLink": "https://mangajuice.com/chapter/komi-san-chapter-419/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes",
-        "image": ""
+        "image": "https://www.mangaread.org/wp-content/uploads/2019/11/Manga-Read-25-193x278.jpg"
     },
     "Shounen no Abyss": {
         "siteAcceptedName": "shounen-no-abys",
@@ -437,7 +437,7 @@
         "latestChapterLink": "https://mangajuice.com/chapter/oshi-no-ko-chapter-126/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no",
-        "image": ""
+        "image": "https://www.mangaread.org/wp-content/uploads/2022/02/Eb7LDddU4AMF1jF-1081x1536-1-193x278.jpg"
     },
     "Damn Reincarnation": {
         "siteAcceptedName": "damn-reincarnations",
@@ -581,7 +581,7 @@
         "latestChapterLink": "https://mangajuice.com/chapter/swordmasters-youngest-son-chapter-90/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no",
-        "image": "https://www.mangaread.org/wp-content/uploads/2022/04/Read-Manhwa-7-193x278.jpg"
+        "image": "https://www.mangaread.org/wp-content/uploads/2023/07/Read-Manhwa-10-193x278.jpg"
     },
     "Magic Emperor": {
         "siteAcceptedName": "magic-emperor",
@@ -661,6 +661,6 @@
         "latestChapterLink": "https://mangajuice.com/chapter/doctors-rebirth-chapter-126/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no",
-        "image": ""
+        "image": "https://www.mangaread.org/wp-content/uploads/2023/04/Read-Manhwa-4-193x278.jpg"
     }
 }
