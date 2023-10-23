@@ -23,7 +23,7 @@
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/09/Read-Manhwa-1-193x278.webp"
     },
-    "A Returner\u2019s Magic Should Be Special": {
+    "A Returner's Magic Should Be Special": {
         "siteAcceptedName": "a-returners-magic-should-be-special",
         "latestChapter": "241.0",
         "latestChapterLink": "https://mangajuice.com/chapter/a-returners-magic-should-be-special-chapter-241/",
@@ -135,7 +135,7 @@
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2022/04/1587753302_198x0-193x278.jpg"
     },
-    "Don\u2019t Toy with Me, Nagatoro-san!": {
+    "Don't Toy with Me, Nagatoro-san!": {
         "siteAcceptedName": "nagatoro-san",
         "latestChapter": "137.0",
         "latestChapterLink": "https://mangajuice.com/chapter/nagatoro-san-chapter-137/",
@@ -167,7 +167,7 @@
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2020/02/Read-Manga-18-193x278.jpg"
     },
-    "Skeleton Soldier Couldn\u2019T Protect The Dungeon": {
+    "Skeleton Soldier Couldn't Protect The Dungeon": {
         "siteAcceptedName": "skeleton-soldier-couldnt-protect-the-dungeon",
         "latestChapter": "254.0",
         "latestChapterLink": "https://mangajuice.com/chapter/skeleton-soldier-couldnt-protect-the-dungeon-chapter-254/",
@@ -199,7 +199,7 @@
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/04/Read-Manga-7-193x278.jpg"
     },
-    "Omniscient Reader\u2019s Viewpoint": {
+    "Omniscient Reader's Viewpoint": {
         "siteAcceptedName": "omniscient-reader",
         "latestChapter": "178.0",
         "latestChapterLink": "https://mangajuice.com/chapter/omniscient-reader-chapter-178/",
@@ -287,7 +287,7 @@
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/10/Read-Manhwa-10-193x278.jpg"
     },
-    "Trash of the Count\u2019s Family": {
+    "Trash of the Count's Family": {
         "siteAcceptedName": "trash-of-the-counts-family",
         "latestChapter": "103.0",
         "latestChapterLink": "https://mangajuice.com/chapter/trash-of-the-counts-family-chapter-103/",
@@ -359,7 +359,7 @@
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/12/E9qoGGRWUAs-Gus-193x278.jpg"
     },
-    "Komi Cant Communicate": {
+    "Komi Can't Communicate": {
         "siteAcceptedName": "komi-san-wa-komyushou-desu",
         "latestChapter": "419.0",
         "latestChapterLink": "https://mangajuice.com/chapter/komi-san-chapter-419/",
@@ -383,7 +383,7 @@
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/07/Read-Manhwa-6-193x278.jpg"
     },
-    "The Heavenly Demon Can\u2019t Live a Normal Life": {
+    "The Heavenly Demon Can't Live a Normal Life": {
         "siteAcceptedName": "the-heavenly-demon-cant-live-a-normal-life",
         "latestChapter": "86.0",
         "latestChapterLink": "https://mangajuice.com/chapter/the-heavenly-demon-cant-live-a-normal-life-chapter-86/",
@@ -431,7 +431,7 @@
         "isFavorite": "no",
         "image": ""
     },
-    "[Oshi no Ko]": {
+    "Oshi no Ko": {
         "siteAcceptedName": "oshi-no-ko",
         "latestChapter": "126.0",
         "latestChapterLink": "https://mangajuice.com/chapter/oshi-no-ko-chapter-126/",
@@ -575,7 +575,7 @@
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/11/20-1583501926-193x278.jpg"
     },
-    "Swordmaster\u2019s Youngest Son": {
+    "Swordmaster's Youngest Son": {
         "siteAcceptedName": "swordmasters-youngest-son",
         "latestChapter": "90.0",
         "latestChapterLink": "https://mangajuice.com/chapter/swordmasters-youngest-son-chapter-90/",
@@ -655,7 +655,7 @@
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2022/06/1620811348_198x0-193x278.jpg"
     },
-    "Doctor\u2019s Rebirth": {
+    "Doctor's Rebirth": {
         "siteAcceptedName": "doctors-rebirth",
         "latestChapter": "126.0",
         "latestChapterLink": "https://mangajuice.com/chapter/doctors-rebirth-chapter-126/",
