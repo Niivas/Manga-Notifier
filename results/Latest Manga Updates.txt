@@ -1,16 +1,79 @@
 {
+    "Wind Breaker": {
+        "siteAcceptedName": "wind-breaker",
+        "latestChapter": "467.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/wind-breaker-chapter-467/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Mercenary Enrollment": {
+        "siteAcceptedName": "mercenary-enrollment",
+        "latestChapter": "159.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/mercenary-enrollment-chapter-159/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Blue Lock": {
+        "siteAcceptedName": "blue-lock",
+        "latestChapter": "238.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/blue-lock-chapter-238/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "A Returner\u2019s Magic Should Be Special": {
+        "siteAcceptedName": "a-returners-magic-should-be-special",
+        "latestChapter": "241.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/a-returners-magic-should-be-special-chapter-241/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "My Hero Academia": {
+        "siteAcceptedName": "my-hero-academia",
+        "latestChapter": "404.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/my-hero-academia-chapter-404/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
+    },
+    "Dragon Ball Super": {
+        "siteAcceptedName": "dragon-ball-super",
+        "latestChapter": "98.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/dragon-ball-super-chapter-98/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
+    },
+    "One Punch-Man": {
+        "siteAcceptedName": "one-punch-man",
+        "latestChapter": "194.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/one-punch-man-chapter-194/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
+    "Jujutsu Kaisen": {
+        "siteAcceptedName": "jujutsu-kaisen",
+        "latestChapter": "239.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/jujutsu-kaisen-chapter-239/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "yes"
+    },
+    "Toilet-bound Hanako-kun": {
+        "siteAcceptedName": "toilet-bound-hanako-kun",
+        "latestChapter": "107.0",
+        "latestChapterLink": "https://mangajuice.com/chapter/toilet-bound-hanako-kun-chapter-107/",
+        "chaptersAddedSinceYouLastRead": "0.0",
+        "isFavorite": "no"
+    },
     "Eleceed": {
         "siteAcceptedName": "eleceed",
         "latestChapter": "268.0",
         "latestChapterLink": "https://mangajuice.com/chapter/eleceed-chapter-268/",
-        "chaptersAddedSinceYouLastRead": "4.0",
+        "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
     "Rent a Girlfriend": {
         "siteAcceptedName": "rent-a-girlfriend",
         "latestChapter": "302.0",
         "latestChapterLink": "https://mangajuice.com/chapter/rent-a-girlfriend-chapter-302/",
-        "chaptersAddedSinceYouLastRead": "2.0",
+        "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
     },
     "Guard Pass": {
@@ -27,26 +90,12 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
     },
-    "Wind Breaker": {
-        "siteAcceptedName": "wind-breaker",
-        "latestChapter": "466.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/wind-breaker-chapter-466/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
     "Mushoku Tensei": {
         "siteAcceptedName": "mushoku-tensei",
         "latestChapter": "94.0",
         "latestChapterLink": "https://mangajuice.com/chapter/mushoku-tensei-chapter-94/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
-    },
-    "My Hero Academia": {
-        "siteAcceptedName": "my-hero-academia",
-        "latestChapter": "403.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/my-hero-academia-chapter-403/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "yes"
     },
     "Kaiju No. 8": {
         "siteAcceptedName": "kaiju-no",
@@ -108,13 +157,6 @@
         "siteAcceptedName": "the-eminence-in-shadow",
         "latestChapter": "57.0",
         "latestChapterLink": "https://mangajuice.com/chapter/the-eminence-in-shadow-chapter-57/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "One Punch-Man": {
-        "siteAcceptedName": "one-punch-man",
-        "latestChapter": "193.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/one-punch-man-chapter-193/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
@@ -202,13 +244,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
-    "Jujutsu Kaisen": {
-        "siteAcceptedName": "jujutsu-kaisen",
-        "latestChapter": "237.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/jujutsu-kaisen-chapter-237/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "yes"
-    },
     "Lookism": {
         "siteAcceptedName": "lookism",
         "latestChapter": "468.0",
@@ -220,13 +255,6 @@
         "siteAcceptedName": "trash-of-the-counts-family",
         "latestChapter": "103.0",
         "latestChapterLink": "https://mangajuice.com/chapter/trash-of-the-counts-family-chapter-103/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Blue Lock": {
-        "siteAcceptedName": "blue-lock",
-        "latestChapter": "234.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/blue-lock-chapter-234/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
@@ -248,13 +276,6 @@
         "siteAcceptedName": "chainsaw-man",
         "latestChapter": "143.0",
         "latestChapterLink": "https://mangajuice.com/chapter/chainsaw-man-chapter-143/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "yes"
-    },
-    "Dragon Ball Super": {
-        "siteAcceptedName": "dragon-ball-super",
-        "latestChapter": "97.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/dragon-ball-super-chapter-97/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "yes"
     },
@@ -482,13 +503,6 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     },
-    "A Returner\u2019s Magic Should Be Special": {
-        "siteAcceptedName": "a-returners-magic-should-be-special",
-        "latestChapter": "237.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/a-returners-magic-should-be-special-chapter-237/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
     "Swordmaster\u2019s Youngest Son": {
         "siteAcceptedName": "swordmasters-youngest-son",
         "latestChapter": "90.0",
@@ -563,13 +577,6 @@
         "siteAcceptedName": "doctors-rebirth",
         "latestChapter": "126.0",
         "latestChapterLink": "https://mangajuice.com/chapter/doctors-rebirth-chapter-126/",
-        "chaptersAddedSinceYouLastRead": "0.0",
-        "isFavorite": "no"
-    },
-    "Mercenary Enrollment": {
-        "siteAcceptedName": "mercenary-enrollment",
-        "latestChapter": "2.0",
-        "latestChapterLink": "https://mangajuice.com/chapter/mercenary-enrollment-chapter-157-2/",
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no"
     }
