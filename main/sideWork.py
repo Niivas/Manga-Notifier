@@ -1,8 +1,12 @@
 import json
 import requests
 from selectolax.lexbor import LexborHTMLParser
+from selenium import webdriver
+
 
 searchUrl = lambda x: f"https://www.mangaread.org/?s={x}&post_type=wp-manga"
+PATH = "C:\Program Files (x86)\chromedriver-win64\chromedriver.exe"
+driver = webdriver.Chrome(PATH)
 
 with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'r') as file:
     mangas = json.loads(file.read())

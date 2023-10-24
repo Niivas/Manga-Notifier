@@ -1,15 +1,16 @@
 import json
 import time
 from datetime import datetime
-
+from selenium import webdriver
 import requests
 from selectolax.lexbor import LexborHTMLParser
-
 from UpdatePdf import updatePdf  # Assuming UpdatePdf.py has a function named updatePDF
 
+PATH = "C:\Program Files (x86)\chromedriver-win64\chromedriver.exe"
+driver = webdriver.Chrome(PATH)
 # Base URLs for manga information
-baseUrl = "https://mangajuice.com/manga/"
-MangaUpdatesUrl = 'https://mangajuice.com/updates/'
+MangaJuiceBaseUrl = "https://mangajuice.com/manga/"
+MangaJuiceUpdatesUrl = 'https://mangajuice.com/updates/'
 
 
 # Function to extract the chapter number from the chapter link
@@ -32,7 +33,7 @@ def fetchLatestChapter(latestChapterLink):
 
 # Function to get the latest chapter and its link for a given manga
 def getLatestChapterAndLink(mangaName):
-    htmlPage = requests.get(baseUrl + mangaName)
+    htmlPage = requests.get(MangaJuiceBaseUrl + mangaName)
     soup = LexborHTMLParser(htmlPage.text)
     mangaElement = soup.css_first('a.Latest_Chapter')
     latestChapterLink = mangaElement.attrs.get('href')
@@ -65,11 +66,11 @@ def getLatestChapterName(url):
 # Function to fetch manga information from the update page
 def fetchMangasInfo(mangaka):
     MangaAcceptedNames = set()
-    sanToMangaName = { }
+    sanToMangaName = {}
     for manga in mangaka:
         MangaAcceptedNames.add(mangaka[manga]['siteAcceptedName'])
         sanToMangaName[mangaka[manga]['siteAcceptedName']] = manga
-    updatesPage = requests.get(MangaUpdatesUrl)
+    updatesPage = requests.get(MangaJuiceUpdatesUrl)
     soup = LexborHTMLParser(updatesPage.text)
     mangasInfo = soup.css('a.wrap-text')
     recentlyUpdatedMangaCount = len(mangasInfo)
@@ -102,7 +103,7 @@ def updateStatsFile(prev, curr):
                 favouriteMangaUpdatedInTheRecentFetch += 1
             totalFavoriteMangas += 1
 
-    content = { }
+    content = {}
     curTimeAndDate = datetime.now().strftime("%H:%M %Y-%m-%d")
     content['Mangas last fetched time'] = curTimeAndDate
     content['Mangas Added in the recent Fetch'] = str(curr - prev)
