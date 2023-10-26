@@ -41,7 +41,7 @@ def updatePdf(data):
                                                  ["Chapters Added since you last fetched",
                                                   issue.get("chaptersAddedSinceYouLastRead", "N.A.")],
                                                  ['Is Favorite', issue.get('isFavorite', "N.A.")]
-                                                 ], header_row=False, header_col=True, font_size=Decimal(10))
+                                                 ], header_row=False, header_col=True, font_size=Decimal(9))
         layout1.add(table1)
         if issue['isFavorite'] == 'yes':
             if issue["chaptersAddedSinceYouLastRead"] != "0.0":
@@ -55,7 +55,7 @@ def updatePdf(data):
                                                      ["Chapters Added since you last fetched",
                                                       issue.get("chaptersAddedSinceYouLastRead", "N.A.")],
                                                      ['Is Favorite', issue.get('isFavorite', "N.A.")]
-                                                     ], header_row=False, header_col=True, font_size=Decimal(10))
+                                                     ], header_row=False, header_col=True, font_size=Decimal(9))
             count += 1
             layout2.add(table2)
 

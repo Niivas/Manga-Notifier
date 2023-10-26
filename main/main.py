@@ -6,8 +6,8 @@ import requests
 from selectolax.lexbor import LexborHTMLParser
 from UpdatePdf import updatePdf  # Assuming UpdatePdf.py has a function named updatePDF
 
-PATH = "C:\Program Files (x86)\chromedriver-win64\chromedriver.exe"
-driver = webdriver.Chrome(PATH)
+# PATH = "C:\Program Files (x86)\chromedriver-win64\chromedriver.exe"
+# driver = webdriver.Chrome(PATH)
 # Base URLs for manga information
 MangaJuiceBaseUrl = "https://mangajuice.com/manga/"
 MangaJuiceUpdatesUrl = 'https://mangajuice.com/updates/'
