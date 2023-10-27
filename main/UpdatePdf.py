@@ -26,34 +26,34 @@ def updatePdf(data):
     # generate a Table for each issue
     for title, issue in data.items():
         # add a header (Paragraph)
-        if issue["chaptersAddedSinceYouLastRead"] != "0.0":
+        if "days" in issue["latestRelease"] or "day" in issue["latestRelease"] or "1 week" in issue["latestRelease"]:
             layout1.add(Paragraph(f'{keyCount}. {title}', font_size=Decimal(20), font_color=HexColor(green)))
         else:
             layout1.add(Paragraph(f'{keyCount}. {title}', font_size=Decimal(20), font_color=HexColor(black)))
-
         keyCount += 1
 
         # add a Table (using the convenient TableUtil class)
-        table1: Table = TableUtil.from_2d_array([["Site Accepted Name", issue.get("siteAcceptedName", "N.A.")],
-                                                 ["Latest Chapter", issue.get("latestChapter", "N.A.")],
+        table1: Table = TableUtil.from_2d_array([["Latest Chapter", issue.get("latestChapter", "N.A.")],
                                                  ["Latest Chapter Link",
                                                   issue.get("latestChapterLink", "N.A.")],
                                                  ["Chapters Added since you last fetched",
                                                   issue.get("chaptersAddedSinceYouLastRead", "N.A.")],
+                                                 ["Latest Release", issue.get("latestRelease", "N.A.")],
                                                  ['Is Favorite', issue.get('isFavorite', "N.A.")]
                                                  ], header_row=False, header_col=True, font_size=Decimal(9))
         layout1.add(table1)
         if issue['isFavorite'] == 'yes':
-            if issue["chaptersAddedSinceYouLastRead"] != "0.0":
+            if "days" in issue["latestRelease"] or "day" in issue["latestRelease"] or "1 week" in issue["latestRelease"]:
                 layout2.add(Paragraph(f'{count}. {title}', font_size=Decimal(20), font_color=HexColor(green)))
             else:
                 layout2.add(Paragraph(f'{count}. {title}', font_size=Decimal(20), font_color=HexColor(black)))
-            table2: Table = TableUtil.from_2d_array([["Site Accepted Name", issue.get("siteAcceptedName", "N.A.")],
+            table2: Table = TableUtil.from_2d_array([
                                                      ["Latest Chapter", issue.get("latestChapter", "N.A.")],
                                                      ["Latest Chapter Link",
                                                       issue.get("latestChapterLink", "N.A.")],
                                                      ["Chapters Added since you last fetched",
                                                       issue.get("chaptersAddedSinceYouLastRead", "N.A.")],
+                                                        ["Latest Release", issue.get("latestRelease", "N.A.")],
                                                      ['Is Favorite', issue.get('isFavorite', "N.A.")]
                                                      ], header_row=False, header_col=True, font_size=Decimal(9))
             count += 1
@@ -62,5 +62,6 @@ def updatePdf(data):
     with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Favorite Mangas.pdf', 'wb') as pdf:
         PDF.dumps(pdf, doc2)
     # store the PDF
-    with open(r"C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.pdf", "wb") as pdf:
+    with open(r"C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.pdf",
+              "wb") as pdf:
         PDF.dumps(pdf, doc1)
