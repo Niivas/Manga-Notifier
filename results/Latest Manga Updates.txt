@@ -3,7 +3,7 @@
         "siteAcceptedName": "shounen-no-abyss",
         "latestChapter": "150.0",
         "latestChapterLink": "https://mangajuice.com/chapter/shounen-no-abys-chapter-150/",
-        "chaptersAddedSinceYouLastRead": "1",
+        "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no",
         "latestRelease": "1 month ago"
     },
@@ -11,7 +11,7 @@
         "siteAcceptedName": "omniscient-readers-viewpoint",
         "latestChapter": "178.0",
         "latestChapterLink": "https://mangajuice.com/chapter/omniscient-reader-chapter-178/",
-        "chaptersAddedSinceYouLastRead": "1",
+        "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no",
         "latestRelease": "3 weeks ago"
     },
@@ -184,7 +184,7 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2023/10/Read-Manga-6-193x278.jpg",
-        "latestRelease": "2 weeks ago"
+        "latestRelease": "3 weeks ago"
     },
     "Tower of God": {
         "siteAcceptedName": "tower-of-god",
@@ -265,7 +265,7 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/02/Read-Manhwa-1-193x278.jpg",
-        "latestRelease": "3 weeks ago"
+        "latestRelease": "4 weeks ago"
     },
     "Existence": {
         "siteAcceptedName": "existence",
@@ -274,7 +274,7 @@
         "chaptersAddedSinceYouLastRead": "0.0",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2022/08/Read-Manhwa-5-193x278.jpg",
-        "latestRelease": "3 weeks ago"
+        "latestRelease": "4 weeks ago"
     },
     "Mission: Yozakura Family": {
         "siteAcceptedName": "mission-yozakura-family",
