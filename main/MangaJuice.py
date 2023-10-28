@@ -4,7 +4,7 @@ from selectolax.lexbor import LexborHTMLParser
 
 # Base URLs for manga information
 MangaJuiceBaseUrl = "https://mangajuice.com/manga/"
-MangaJuiceUpdatesUrl = 'https://mangajuice.com/updates/'
+MangaJuiceUpdatesUrl = "https://mangajuice.com/updates/"
 
 
 # Function to extract the chapter number from the chapter link
@@ -44,7 +44,7 @@ def getLatestChapterAndLink(mangaName):
 def fetchMangasInfoRespective(mangaka):
     mangas = mangaka.copy()
     for manga in mangaka:
-        mangaName = mangaka[manga]["siteAcceptedName"]
+        mangaName = mangaka[manga]["mangaJuiceSan"]
         try:
             print(f"Updated {manga}")
             chapter, link, latestRelease = getLatestChapterAndLink(mangaName)
@@ -72,8 +72,8 @@ def fetchMangasInfo(mangaka):
     MangaAcceptedNames = set()
     sanToMangaName = {}
     for manga in mangaka:
-        MangaAcceptedNames.add(mangaka[manga]['siteAcceptedName'])
-        sanToMangaName[mangaka[manga]['siteAcceptedName']] = manga
+        MangaAcceptedNames.add(mangaka[manga]['mangaJuiceSan'])
+        sanToMangaName[mangaka[manga]['mangaJuiceSan']] = manga
     updatesPage = requests.get(MangaJuiceUpdatesUrl)
     soup = LexborHTMLParser(updatesPage.text)
     mangaInfo = soup.css('div.Latest_chapter_update')
@@ -90,7 +90,7 @@ def fetchMangasInfo(mangaka):
             mangaka[sanToMangaName[name]]['latestRelease'] = node.css_first('span').text()
         else:
             mangaka[mangaTitle] = dict()
-            mangaka[mangaTitle]['siteAcceptedName'] = name
+            mangaka[mangaTitle]['mangaJuiceSan'] = name
             mangaka[mangaTitle]['latestChapter'] = str(currentChapter)
             mangaka[mangaTitle]['latestChapterLink'] = latestChapterUrls[1].attrs.get('href', "")
             mangaka[mangaTitle]['chaptersAddedSinceYouLastRead'] = "1"
