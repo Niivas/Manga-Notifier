@@ -1,7 +1,6 @@
 import requests
 from selectolax.lexbor import LexborHTMLParser
 
-
 # Base URLs for manga information
 MangaJuiceBaseUrl = "https://mangajuice.com/manga/"
 MangaJuiceUpdatesUrl = "https://mangajuice.com/updates/"
