@@ -1,4 +1,6 @@
 import json
+import time
+
 import requests
 from selectolax.lexbor import LexborHTMLParser
 from utils import cosine_similarity
@@ -7,8 +9,8 @@ from utils import cosine_similarity
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
 
@@ -88,11 +90,24 @@ def fetchMangaUpdates(mangas):
     sanToMangaName = {}
     for manga in mangas:
         sanToMangaName[mangas[manga]["mangaReadSan"]] = manga
+
     options = Options()
     options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)
-    driver.get(updatesPage)
-    titles = driver.find_elements_by_class_name("post-title")
+    driver.get("https://www.mangaread.org/")
+
+    try:
+        loadMore = driver.find_element(By.ID, "navigation-ajax")
+        clicks = 0
+        while clicks < 5:
+            loadMore.click()
+            time.sleep(5)
+            clicks += 1
+        elements = driver.find_elements(By.CSS_SELECTOR, "div.item-summary")
+        print(elements[-1].text.split("\n"))
+
+    except:
+        driver.quit()
 
 
 with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'w') as file:

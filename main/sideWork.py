@@ -42,19 +42,27 @@ for manga in mangas:
 # with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'w') as file:
 #    file.write(json.dumps(mangas, indent=4))
 
-
+ti = time.time()
 options = Options()
 options.add_argument("--headless")
 driver = webdriver.Chrome(options=options)
 driver.get("https://www.mangaread.org/")
-try:
-    element = driver.find_element(By.ID, "navigation-ajax")
-    element.click()
-    time.sleep(5)
-    elements = driver.find_elements(By.CSS_SELECTOR, "div.item-summary")
-    for i in elements:
-        print(i.text)
 
-except:
+try:
+    loadMore = driver.find_element(By.ID, "navigation-ajax")
+    clicks = 0
+    while clicks < 5:
+        loadMore.click()
+        time.sleep(5)
+        clicks += 1
+    elements = driver.find_elements(By.CSS_SELECTOR, "div.item-summary")
+    MangaUrls = [element.find_element(By.CSS_SELECTOR, "a").get_attribute("href") for element in elements]
+    MangaStats = [element.text.split("\n") for element in elements]
+    for url, stats in zip(MangaUrls, MangaStats):
+        print(url, stats)
+
+except Exception as e:
     print("Could not load page")
     driver.quit()
+tf = time.time()
+print(f"Time took: {tf - ti} seconds")
