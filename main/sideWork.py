@@ -10,8 +10,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
-# with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'r') as file:
-#    mangas = json.loads(file.read())
+with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'r') as file:
+    mangas = json.loads(file.read())
 """
 for manga in mangas:
     isFavorite = input(f"is {manga} your favorite (yes/no): ")
@@ -41,7 +41,7 @@ for manga in mangas:
 """
 # with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'w') as file:
 #    file.write(json.dumps(mangas, indent=4))
-
+"""
 ti = time.time()
 options = Options()
 options.add_argument("--headless")
@@ -66,3 +66,4 @@ except Exception as e:
     driver.quit()
 tf = time.time()
 print(f"Time took: {tf - ti} seconds")
+"""

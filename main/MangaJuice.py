@@ -44,16 +44,12 @@ def fetchMangasInfoRespective(mangaka):
     mangas = mangaka.copy()
     for manga in mangaka:
         mangaName = mangaka[manga]["mangaJuiceSan"]
-        try:
-            print(f"Updated {manga}")
-            chapter, link, latestRelease = getLatestChapterAndLink(mangaName)
-            previousChapter = float(mangaka[manga]['latestChapter'])
-            mangas[manga]["latestChapter"] = str(chapter) if chapter != 0 else previousChapter
-            mangas[manga]["latestChapterLink"] = link if link != "" else mangas[manga]["latestChapterLink"]
-            mangas[manga]["chaptersAddedSinceYouLastRead"] = str(chapter - previousChapter) if chapter != 0 else 0
-            mangas[manga]["latestRelease"] = latestRelease
-        except KeyError:
-            print(f"Could not update {manga}")
+        print(f"Updated {manga}")
+        chapter, link, latestRelease = getLatestChapterAndLink(mangaName)
+        previousChapter = float(mangaka[manga]['latestChapter'])
+        mangas[manga]["latestChapter"] = str(chapter) if chapter != 0 else previousChapter
+        mangas[manga]["latestChapterLink"] = link if link != "" else mangas[manga]["latestChapterLink"]
+        mangas[manga]["latestRelease"] = latestRelease if latestRelease != "" else mangas[manga]["latestRelease"]
     return mangas
 
 

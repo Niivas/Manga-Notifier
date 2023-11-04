@@ -1,11 +1,11 @@
 import json
 import time
-
+import asyncio
+import aiohttp
 import requests
 from selectolax.lexbor import LexborHTMLParser
 from utils import cosine_similarity
 
-# import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -13,17 +13,54 @@ from selenium.webdriver.common.by import By
 # from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
-
-with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt',
-          'r') as previousMangaUpdatesFile:
-    mangas = json.loads(previousMangaUpdatesFile.read())
-
 # PATH = "C:\Program Files (x86)\chromedriver.exe"
 # driver = webdriver.Chrome()
 mainUrl = "https://www.mangaread.org/"
 mangaPageUrl = "https://www.mangaread.org/manga/"
 mangaSearchPage = lambda mangaTitle: f"https://www.mangaread.org/?s={mangaTitle}&post_type=wp-manga"
 updatesPage = "https://www.mangaread.org/"
+responses = []
+
+with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt',
+          'r') as previousMangaUpdatesFile:
+    mangas = json.loads(previousMangaUpdatesFile.read())
+
+mangaReadSans = []
+for manga in mangas:
+    mangaReadSans.append(mangas[manga]["mangaReadSan"])
+
+mangaResponses = []
+
+
+def get_tasks(session):
+    tasks = []
+    for manga in mangaReadSans:
+        tasks.append(asyncio.create_task(session.get(mangaPageUrl + manga, ssl=False)))
+    return tasks
+
+
+async def fetchMangaResponses():
+    async with aiohttp.ClientSession() as session:
+        tasks = get_tasks(session)
+        responses = await asyncio.gather(*tasks)
+        for response in responses:
+            mangaResponses.append(await response.text())
+
+
+def getupdates():
+    for manga in mangaResponses:
+        soup = LexborHTMLParser(manga)
+        title = soup.css_first("head").css_first("title").text()
+        if "Page not found" in title:
+            print(f"Could not find one")
+            continue
+        latestNode = soup.css_first("li.wp-manga-chapter    ")
+        if latestNode is None:
+            print(f"Could not find one")
+            continue
+        latestChapterLink = latestNode.css_first("a").attrs.get("href")
+        releaseDate = latestNode.css_first("i").text()
+        print(title, releaseDate, latestChapterLink)
 
 
 def parseUrl(url):
@@ -58,6 +95,7 @@ def findMangaReadSans(mangas):
     for manga in mangas:
         if mangas[manga]["mangaReadSan"] != "":
             continue
+        mangaReadSan = ""
         similarity = 0
         searchPage = requests.get(mangaSearchPage(manga))
         soup = LexborHTMLParser(searchPage.text)
@@ -104,11 +142,23 @@ def fetchMangaUpdates(mangas):
             time.sleep(5)
             clicks += 1
         elements = driver.find_elements(By.CSS_SELECTOR, "div.item-summary")
-        print(elements[-1].text.split("\n"))
-
-    except:
+        MangaUrls = [element.find_element(By.CSS_SELECTOR, "a").get_attribute("href") for element in elements]
+        MangaStats = [element.text.split("\n") for element in elements]
+        for i in range(len(MangaUrls)):
+            mangaReadSan = parseUrl(MangaUrls[i])
+            if mangaReadSan in mangaReadSans:
+                mangaName = sanToMangaName[mangaReadSan]
+                previousChapter = float(mangas[mangaName]['latestChapter'])
+                currentChapter = float(MangaStats[i][1].split(" ")[1])
+                if currentChapter >= previousChapter:
+                    mangas[mangaName]["latestChapter"] = str(currentChapter)
+                    mangas[mangaName]["latestChapterLink"] = MangaUrls[i]
+                    mangas[mangaName]["latestRelease"] = MangaStats[i][2]
+    except Exception as e:
         driver.quit()
+    driver.quit()
+    return mangas
 
 
-with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'w') as file:
-    file.write(json.dumps(mangas, indent=4))
+asyncio.run(fetchMangaResponses())
+getupdates()

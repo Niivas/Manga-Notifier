@@ -36,8 +36,6 @@ def updatePdf(data):
         table1: Table = TableUtil.from_2d_array([["Latest Chapter", issue.get("latestChapter", "N.A.")],
                                                  ["Latest Chapter Link",
                                                   issue.get("latestChapterLink", "N.A.")],
-                                                 ["Chapters Added since you last fetched",
-                                                  issue.get("chaptersAddedSinceYouLastRead", "N.A.")],
                                                  ["Latest Release", issue.get("latestRelease", "N.A.")],
                                                  ['Is Favorite', issue.get('isFavorite', "N.A.")]
                                                  ], header_row=False, header_col=True, font_size=Decimal(9))
@@ -51,8 +49,6 @@ def updatePdf(data):
                                                      ["Latest Chapter", issue.get("latestChapter", "N.A.")],
                                                      ["Latest Chapter Link",
                                                       issue.get("latestChapterLink", "N.A.")],
-                                                     ["Chapters Added since you last fetched",
-                                                      issue.get("chaptersAddedSinceYouLastRead", "N.A.")],
                                                         ["Latest Release", issue.get("latestRelease", "N.A.")],
                                                      ['Is Favorite', issue.get('isFavorite', "N.A.")]
                                                      ], header_row=False, header_col=True, font_size=Decimal(9))
