@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
-with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'r') as file:
+with open(r'/results/Latest Manga Updates.txt', 'r') as file:
     mangas = json.loads(file.read())
 """
 for manga in mangas:

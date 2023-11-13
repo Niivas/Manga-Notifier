@@ -55,9 +55,9 @@ def updatePdf(data):
             count += 1
             layout2.add(table2)
 
-    with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Favorite Mangas.pdf', 'wb') as pdf:
+    with open(r'/results/Favorite Mangas.pdf', 'wb') as pdf:
         PDF.dumps(pdf, doc2)
     # store the PDF
-    with open(r"C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.pdf",
+    with open(r"/results/Latest Manga Updates.pdf",
               "wb") as pdf:
         PDF.dumps(pdf, doc1)

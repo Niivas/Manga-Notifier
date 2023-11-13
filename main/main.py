@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
-from MangaJuice import fetchMangasInfo
-from UpdatePdf import updatePdf
+from manga_juice.MangaJuice import fetchMangasInfo
+from utils.updatePdf import updatePdf
 
 
 # Function to update the statistics file with relevant information

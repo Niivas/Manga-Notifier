@@ -4,10 +4,10 @@ import asyncio
 import aiohttp
 import requests
 from selectolax.lexbor import LexborHTMLParser
-from utils import cosine_similarity
+from utils.utils import cosine_similarity
 
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+# from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 # from selenium.webdriver.support.ui import WebDriverWait
 # from selenium.webdriver.support import expected_conditions as EC
@@ -21,7 +21,7 @@ mangaSearchPage = lambda mangaTitle: f"https://www.mangaread.org/?s={mangaTitle}
 updatesPage = "https://www.mangaread.org/"
 responses = []
 
-with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt',
+with open(r'/results/Latest Manga Updates.txt',
           'r') as previousMangaUpdatesFile:
     mangas = json.loads(previousMangaUpdatesFile.read())
 
