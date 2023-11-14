@@ -3,7 +3,7 @@ from datetime import datetime
 from manga_juice.MangaJuice import fetchMangasInfo
 from utils.updatePdf import updatePdf
 from manga_read.MangaRead import fetchFromMangaRead
-
+from git.pushToPage import push
 
 # Function to update the statistics file with relevant information
 def updateStatsFile(prev, curr):
@@ -42,6 +42,10 @@ mangas = fetchFromMangaRead(mangas)
 # Update the statistics file
 updateStatsFile(beforeFetchMangaCount, afterFetchMangaCount)
 
+with open(r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier.github.io\assets\mangas.json', 'w') as file:
+    file.write(json.dumps(mangas, indent=4))
+
+push()
 # Write the updated manga information to the file
 with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'w') as file:
     file.write(json.dumps(mangas, indent=4))

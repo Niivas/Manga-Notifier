@@ -4,6 +4,7 @@
         "latestChapter": 200.0,
         "latestChapterLink": "https://www.mangaread.org/manga/solo-leveling-manhwa/chapter-200/",
         "isFavorite": "no",
+        "image": "https://sololeveling-read.online/wp-content/uploads/2023/05/solo-leveling-manga-online.jpg",
         "latestRelease": "31.05.2023",
         "mangaReadSan": "solo-leveling-manhwa"
     },
@@ -11,6 +12,7 @@
         "latestChapter": 156.0,
         "latestChapterLink": "https://www.mangaread.org/manga/boys-abyss/chapter-156/",
         "isFavorite": "no",
+        "image": "https://i.imgur.com/yesybMv.png",
         "latestRelease": "09.11.2023",
         "mangaJuiceSan": "shounen-no-abyss",
         "mangaReadSan": "boys-abyss"
@@ -19,6 +21,7 @@
         "latestChapter": "178.0",
         "latestChapterLink": "https://mangajuice.com/chapter/omniscient-reader-chapter-178/",
         "isFavorite": "no",
+        "image": "https://www.mangaread.org/wp-content/uploads/2020/06/image-2021-02-11T014759.206-193x278.jpeg",
         "latestRelease": "1 month ago",
         "mangaJuiceSan": "omniscient-readers-viewpoint",
         "mangaReadSan": "omniscient-readers-viewpoint",
@@ -310,7 +313,7 @@
         "latestChapterLink": "https://www.mangaread.org/manga/reincarnation-of-the-battle-god/chapter-98/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/06/Read-Manga.gif",
-        "latestRelease": "7 hours ago",
+        "latestRelease": "8 hours ago",
         "mangaJuiceSan": "reincarnation-of-the-suicidal-battle-god",
         "mangaReadSan": "reincarnation-of-the-battle-god"
     },
@@ -498,7 +501,7 @@
         "latestChapter": "88.0",
         "latestChapterLink": "https://mangajuice.com/chapter/tsukimichi-chapter-88/",
         "isFavorite": "no",
-        "image": "",
+        "image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/9b2fb07e9be2b7f1f3cca7d660552b5e.jpe",
         "latestRelease": "2 months ago",
         "mangaJuiceSan": "tsukimichi",
         "mangaReadSan": "",
