@@ -57,7 +57,8 @@ async def fetchMangaResponses(mangas):
             mangas[saNToMangaName[manga]]["latestChapter"] = latestChapter
             mangas[saNToMangaName[manga]]["latestChapterLink"] = latestChapterLink
             mangas[saNToMangaName[manga]]["latestRelease"] = releaseDate
-
+        if "chaptersAddedSinceYouLastRead" in mangas[saNToMangaName[manga]]:
+            del mangas[saNToMangaName[manga]]["chaptersAddedSinceYouLastRead"]
 
 def parseUrl(url):
     return url.split("/")[-2].split("-")[-1]

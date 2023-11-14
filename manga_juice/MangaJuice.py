@@ -141,6 +141,3 @@ async def fetchMangaResponses(mangas):
             mangas[saNToManga[manga]]["latestChapter"] = latestChapter
             mangas[saNToManga[manga]]["latestChapterLink"] = latestChapterLink
             mangas[saNToManga[manga]]["latestRelease"] = releaseDate
-    print(json.dumps(mangas, indent=4))
-
-asyncio.run(fetchMangaResponses(mangas))
