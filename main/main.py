@@ -2,6 +2,7 @@ import json
 from datetime import datetime
 from manga_juice.MangaJuice import fetchMangasInfo
 from utils.updatePdf import updatePdf
+from manga_read.MangaRead import fetchFromMangaRead
 
 
 # Function to update the statistics file with relevant information
@@ -30,17 +31,16 @@ with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Lat
     mangas = json.loads(previousMangaUpdatesFile.read())
 
 beforeFetchMangaCount = len(mangas)
-
 # Fetch the latest manga updates
 mangas = fetchMangasInfo(mangas)
 # print(f"Time took for fetching updates of {len(mangas)} mangas: {tf - ti} seconds")
 afterFetchMangaCount = len(mangas)
 
+# Fetch the latest manga updates from MangaRead
+mangas = fetchFromMangaRead(mangas)
+
 # Update the statistics file
 updateStatsFile(beforeFetchMangaCount, afterFetchMangaCount)
-
-# Sort the manga updates based on chapters added since last read
-
 
 # Write the updated manga information to the file
 with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'w') as file:

@@ -19,52 +19,48 @@ mainUrl = "https://www.mangaread.org/"
 mangaPageUrl = "https://www.mangaread.org/manga/"
 mangaSearchPage = lambda mangaTitle: f"https://www.mangaread.org/?s={mangaTitle}&post_type=wp-manga"
 updatesPage = "https://www.mangaread.org/"
-responses = []
-
-with open(r'/results/Latest Manga Updates.txt',
-          'r') as previousMangaUpdatesFile:
-    mangas = json.loads(previousMangaUpdatesFile.read())
-
-mangaReadSans = []
-for manga in mangas:
-    mangaReadSans.append(mangas[manga]["mangaReadSan"])
-
-mangaResponses = []
 
 
-def get_tasks(session):
+def get_tasks(session, mangaReadSans):
     tasks = []
     for manga in mangaReadSans:
         tasks.append(asyncio.create_task(session.get(mangaPageUrl + manga, ssl=False)))
     return tasks
 
 
-async def fetchMangaResponses():
+async def fetchMangaResponses(mangas):
+    mangaReadSans = []
+    mangaResponses = []
+    for manga in mangas:
+        mangaReadSans.append(mangas[manga]["mangaReadSan"])
+    saNToMangaName = {}
+    for manga in mangas:
+        saNToMangaName[mangas[manga]["mangaReadSan"]] = manga
+
     async with aiohttp.ClientSession() as session:
-        tasks = get_tasks(session)
+        tasks = get_tasks(session, mangaReadSans)
         responses = await asyncio.gather(*tasks)
         for response in responses:
             mangaResponses.append(await response.text())
-
-
-def getupdates():
-    for manga in mangaResponses:
-        soup = LexborHTMLParser(manga)
-        title = soup.css_first("head").css_first("title").text()
+    for manga, response in zip(mangaReadSans, mangaResponses):
+        soup = LexborHTMLParser(response)
+        title = soup.css_first("title").text()
         if "Page not found" in title:
-            print(f"Could not find one")
             continue
         latestNode = soup.css_first("li.wp-manga-chapter    ")
         if latestNode is None:
-            print(f"Could not find one")
             continue
         latestChapterLink = latestNode.css_first("a").attrs.get("href")
         releaseDate = latestNode.css_first("i").text()
-        print(title, releaseDate, latestChapterLink)
+        latestChapter = float(parseUrl(latestChapterLink))
+        if latestChapter > float(mangas[saNToMangaName[manga]]["latestChapter"]):
+            mangas[saNToMangaName[manga]]["latestChapter"] = latestChapter
+            mangas[saNToMangaName[manga]]["latestChapterLink"] = latestChapterLink
+            mangas[saNToMangaName[manga]]["latestRelease"] = releaseDate
 
 
 def parseUrl(url):
-    return url.split("/")[-2]
+    return url.split("/")[-2].split("-")[-1]
 
 
 def fetchMangaReadRespective(mangas):
@@ -160,5 +156,6 @@ def fetchMangaUpdates(mangas):
     return mangas
 
 
-asyncio.run(fetchMangaResponses())
-getupdates()
+def fetchFromMangaRead(mangas):
+    asyncio.run(fetchMangaResponses(mangas))
+    return mangas

@@ -1,10 +1,17 @@
+import json
+
 import requests
+import aiohttp
+import asyncio
 from selectolax.lexbor import LexborHTMLParser
 
 # Base URLs for manga information
 MangaJuiceBaseUrl = "https://mangajuice.com/manga/"
 MangaJuiceUpdatesUrl = "https://mangajuice.com/updates/"
 
+with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt',
+          'r') as previousMangaUpdatesFile:
+    mangas = json.loads(previousMangaUpdatesFile.read())
 
 # Function to extract the chapter number from the chapter link
 def fetchLatestChapter(latestChapterLink):
@@ -92,3 +99,48 @@ def fetchMangasInfo(mangaka):
             mangaka[mangaTitle]['isFavorite'] = 'no'
             mangaka[mangaTitle]['latestRelease'] = node.css_first('span').text()
     return mangaka
+
+
+def get_tasks(session, mangaJuiceSans):
+    tasks = []
+    for manga in mangaJuiceSans:
+        tasks.append(asyncio.create_task(session.get(MangaJuiceBaseUrl + manga, ssl=False)))
+    return tasks
+
+
+def parseUrl(latestChapterLink):
+    return latestChapterLink.split("/")[-2].split("-")[-1]
+
+
+async def fetchMangaResponses(mangas):
+    mangaJuiceSans = []
+    mangaResponses = []
+    for manga in mangas:
+        mangaJuiceSans.append(mangas[manga]["mangaJuiceSan"])
+    saNToManga = {}
+    for manga in mangas:
+        saNToManga[mangas[manga]["mangaJuiceSan"]] = manga
+
+    async with aiohttp.ClientSession() as session:
+        tasks = get_tasks(session, mangaJuiceSans)
+        responses = await asyncio.gather(*tasks)
+        for response in responses:
+            mangaResponses.append(await response.text())
+    for manga, response in zip(mangaJuiceSans, mangaResponses):
+        soup = LexborHTMLParser(response)
+        title = soup.css_first("title").text()
+        if "Page Not Found" in title or "504" in title:
+            continue
+        latestNode = soup.css_first("ul.chapterslist").css_first("li")
+        if latestNode is None:
+            continue
+        latestChapterLink = latestNode.css_first("a").attrs.get("href")
+        releaseDate = latestNode.css_first("span").text()
+        latestChapter = float(parseUrl(latestChapterLink))
+        if latestChapter > float(mangas[saNToManga[manga]]["latestChapter"]):
+            mangas[saNToManga[manga]]["latestChapter"] = latestChapter
+            mangas[saNToManga[manga]]["latestChapterLink"] = latestChapterLink
+            mangas[saNToManga[manga]]["latestRelease"] = releaseDate
+    print(json.dumps(mangas, indent=4))
+
+asyncio.run(fetchMangaResponses(mangas))
