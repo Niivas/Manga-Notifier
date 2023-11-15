@@ -5,6 +5,7 @@ from utils.updatePdf import updatePdf
 from manga_read.MangaRead import fetchFromMangaRead
 from git.pushToPage import push
 
+
 # Function to update the statistics file with relevant information
 def updateStatsFile(prev, curr):
     favouriteMangaUpdatedInTheRecentFetch = 0
