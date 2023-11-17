@@ -29,7 +29,7 @@ def updateStatsFile(prev, curr):
 # Load the previous manga updates from file
 with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt',
           'r') as previousMangaUpdatesFile:
-    mangas = json.loads(previousMangaUpdatesFile.read())
+    mangas = json.load(previousMangaUpdatesFile)
 
 beforeFetchMangaCount = len(mangas)
 # Fetch the latest manga updates

@@ -11,7 +11,7 @@ MangaJuiceUpdatesUrl = "https://mangajuice.com/updates/"
 
 with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt',
           'r') as previousMangaUpdatesFile:
-    mangas = json.loads(previousMangaUpdatesFile.read())
+    mangas = json.load(previousMangaUpdatesFile)
 
 # Function to extract the chapter number from the chapter link
 def fetchLatestChapter(latestChapterLink):
