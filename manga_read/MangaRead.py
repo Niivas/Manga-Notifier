@@ -141,15 +141,15 @@ def fetchMangaUpdates(mangas):
         elements = driver.find_elements(By.CSS_SELECTOR, "div.item-summary")
         MangaUrls = [element.find_element(By.CSS_SELECTOR, "a").get_attribute("href") for element in elements]
         MangaStats = [element.text.split("\n") for element in elements]
-        for i in range(len(MangaUrls)):
-            mangaReadSan = parseUrl(MangaUrls[i])
+        for i, item in enumerate(MangaUrls):
+            mangaReadSan = parseUrl(item)
             if mangaReadSan in mangaReadSans:
                 mangaName = sanToMangaName[mangaReadSan]
                 previousChapter = float(mangas[mangaName]['latestChapter'])
                 currentChapter = float(MangaStats[i][1].split(" ")[1])
                 if currentChapter >= previousChapter:
                     mangas[mangaName]["latestChapter"] = str(currentChapter)
-                    mangas[mangaName]["latestChapterLink"] = MangaUrls[i]
+                    mangas[mangaName]["latestChapterLink"] = item
                     mangas[mangaName]["latestRelease"] = MangaStats[i][2]
     except Exception as e:
         driver.quit()
