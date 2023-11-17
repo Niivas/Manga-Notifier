@@ -91,7 +91,7 @@ def fetchMangasInfo(mangaka):
             mangaka[sanToMangaName[name]]['chaptersAddedSinceYouLastRead'] = str(currentChapter - previousChapter)
             mangaka[sanToMangaName[name]]['latestRelease'] = node.css_first('span').text()
         else:
-            mangaka[mangaTitle] = dict()
+            mangaka[mangaTitle] = {}
             mangaka[mangaTitle]['mangaJuiceSan'] = name
             mangaka[mangaTitle]['latestChapter'] = str(currentChapter)
             mangaka[mangaTitle]['latestChapterLink'] = latestChapterUrls[1].attrs.get('href', "")
