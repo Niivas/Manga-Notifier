@@ -43,8 +43,7 @@ def cosine_similarity(v1, v2):
     denominator = math.sqrt(sum1) * math.sqrt(sum2)
     if not denominator:
         return 0.0
-    else:
-        return float(numerator) / denominator
+    return float(numerator) / denominator
 
 
 print(cosine_similarity("One Piece", "One Piece"))
