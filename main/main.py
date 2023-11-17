@@ -34,7 +34,6 @@ with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Lat
 beforeFetchMangaCount = len(mangas)
 # Fetch the latest manga updates
 mangas = fetchMangasInfo(mangas)
-# print(f"Time took for fetching updates of {len(mangas)} mangas: {tf - ti} seconds")
 afterFetchMangaCount = len(mangas)
 
 # Fetch the latest manga updates from MangaRead

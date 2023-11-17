@@ -39,8 +39,6 @@ for manga in mangas:
     mangas[manga]["mangaJuiceSan"] = mangas[manga]["siteAcceptedName"]
     del mangas[manga]["siteAcceptedName"]
 """
-# with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Latest Manga Updates.txt', 'w') as file:
-#    file.write(json.dumps(mangas, indent=4))
 """
 ti = time.time()
 options = Options()
