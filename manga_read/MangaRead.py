@@ -7,14 +7,9 @@ from selectolax.lexbor import LexborHTMLParser
 from utils.utils import cosine_similarity
 
 from selenium import webdriver
-# from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-# from selenium.webdriver.support.ui import WebDriverWait
-# from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
-# PATH = "C:\Program Files (x86)\chromedriver.exe"
-# driver = webdriver.Chrome()
 mainUrl = "https://www.mangaread.org/"
 mangaPageUrl = "https://www.mangaread.org/manga/"
 mangaSearchPage = lambda mangaTitle: f"https://www.mangaread.org/?s={mangaTitle}&post_type=wp-manga"
