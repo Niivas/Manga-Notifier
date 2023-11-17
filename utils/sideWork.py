@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
 with open(r'/results/Latest Manga Updates.txt', 'r') as file:
-    mangas = json.loads(file.read())
+    mangas = json.load(file)
 """
 for manga in mangas:
     isFavorite = input(f"is {manga} your favorite (yes/no): ")
