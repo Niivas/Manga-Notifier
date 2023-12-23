@@ -1,6 +1,5 @@
 import json
 from datetime import datetime
-from manga_juice.MangaJuice import fetchMangasInfo
 from utils.updatePdf import updatePdf
 from manga_read.MangaRead import fetchFromMangaRead
 from git.pushToPage import push
