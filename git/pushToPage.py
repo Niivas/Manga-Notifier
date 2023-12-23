@@ -3,6 +3,11 @@ from datetime import datetime
 
 
 def push():
+    """
+    Pushes the changes to a Git repository.
+
+    :return: None
+    """
     commit_message = f'Last Fetched: {datetime.now().strftime("%H:%M %Y-%m-%d")}'
     repo_directory = r'C:\Users\Nivas Reddy\Desktop\Manga-Notifier.github.io'
 

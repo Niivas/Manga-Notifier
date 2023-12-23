@@ -3,6 +3,14 @@ from decimal import Decimal
 
 
 def updatePdf(data):
+    """
+    :param data: a dictionary containing manga titles as keys and their corresponding information as values
+    :return: None
+
+    This method updates a PDF document with the latest manga updates based on the given data.
+    It creates two separate documents: one for all mangas and another for favorite mangas.
+    The documents are saved to the respective file paths.
+    """
     # create an empty document for all mangas
     doc1: Document = Document()
 
@@ -26,7 +34,7 @@ def updatePdf(data):
     # generate a Table for each issue
     for title, issue in data.items():
         # add a header (Paragraph)
-        if "days" in issue["latestRelease"] or "day" in issue["latestRelease"] or "1 week" in issue["latestRelease"]:
+        if "days" in issue["latestRelease"] or "day" in issue["latestRelease"] or "1 week" in issue["latestRelease"] or "min" in issue["latestRelease"] or "hour" in issue["latestRelease"]:
             layout1.add(Paragraph(f'{keyCount}. {title}', font_size=Decimal(20), font_color=HexColor(green)))
         else:
             layout1.add(Paragraph(f'{keyCount}. {title}', font_size=Decimal(20), font_color=HexColor(black)))

@@ -33,7 +33,7 @@ with open(r'C:\Users\Nivas Reddy\Desktop\Github files\Manga-Notifier\results\Lat
 
 beforeFetchMangaCount = len(mangas)
 # Fetch the latest manga updates
-mangas = fetchMangasInfo(mangas)
+# mangas = fetchMangasInfo(mangas)
 afterFetchMangaCount = len(mangas)
 
 # Fetch the latest manga updates from MangaRead

@@ -7,6 +7,14 @@ from nltk.tokenize import word_tokenize
 
 
 def formatIt(sentence):
+    """
+    removes all non-alphanumeric characters from the given sentence and returns the formatted string.
+
+    :param sentence: the sentence to be formatted.
+    :type sentence: str
+    :return: The formatted string.
+    :rtype: str
+    """
     whitelist = string.ascii_lowercase + string.digits + ' '
     new_s = ''
     for char in sentence:
@@ -18,6 +26,14 @@ def formatIt(sentence):
 
 
 def vectorize(sentence):
+    """
+    vectorize the given sentence.
+
+    :param sentence: the sentence to be vectorized.
+    :type sentence: str
+    :return: The vectorized sentence.
+    :rtype: str
+    """
     sentence = sentence.lower()
     ignore = set(stopwords.words('english'))
     stemmer = WordNetLemmatizer()
@@ -32,6 +48,14 @@ def vectorize(sentence):
 
 
 def cosine_similarity(v1, v2):
+    """
+    Calculate the cosine similarity between two vectors.
+
+    :param v1: The first vector.
+    :param v2: The second vector.
+    :return: The cosine similarity between v1 and v2.
+
+    """
     v1 = vectorize(v1)
     v2 = vectorize(v2)
     v1 = Counter(v1.split())
