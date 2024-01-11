@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
     <option name="enabledOnReformat" value="true" />
     <option name="sdkUUID" value="b4edab9b-f218-4f35-8f43-89f77aea4a53" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (Manga-Notifier)" project-jdk-type="Python SDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
 </project>
