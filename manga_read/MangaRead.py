@@ -19,9 +19,9 @@ updatesPage = "https://www.mangaread.org/"
 
 def get_tasks(session, mangaReadSans):
     """
-    Creates a list of tasks for fetching manga pages asynchronously.
+    creates a list of tasks for fetching manga pages asynchronously.
 
-    :param session: The aiohttp session for making HTTP requests.
+    :param session: the aiohttp session for making HTTP requests.
     :type session: aiohttp.ClientSession
     :param mangaReadSans: List of manga titles to fetch.
     :type mangaReadSans: list[str]
@@ -37,18 +37,21 @@ def get_tasks(session, mangaReadSans):
 async def fetchMangaResponses(mangas):
     """
     :param mangas: A dictionary containing manga information.
-        Each key represents a manga name and its corresponding value is another dictionary
-        with the following keys:
-        - "mangaReadSan": A unique identifier for the manga.
-        - "latestChapter": The latest chapter number for the manga.
-        - "latestChapterLink": The link to the latest chapter.
-        - "latestRelease": The release date of the latest chapter.
-        - "chaptersAddedSinceYouLastRead": An optional key that may exist if new chapters have been added since you last read the manga.
+    Each key represents a manga name and its corresponding
+    value is another dictionary with the following keys: - "mangaReadSan": A unique identifier for the manga. -
+    "latestChapter": The latest chapter number for the manga. - "latestChapterLink": The link to the latest chapter.
+    - "latestRelease": The release date of the latest chapter.
+    - "chaptersAddedSinceYouLastRead": An optional key
+    that may exist if new chapters have been added since you last read the manga.
     :return: None
 
     This method fetches manga responses for each manga in the given dictionary using aiohttp.
-    It retrieves the latest chapter information for each manga from the response and updates the corresponding values in the mangas dictionary.
-    If new chapters have been added since you last read the manga, the "chaptersAddedSinceYouLastRead" key is removed from the manga's dictionary.
+    It retrieves the latest
+    chapter information for each manga from the response
+    and updates the corresponding values in the mangas
+    dictionary.
+    If new chapters have been added since you last read the manga, the "chaptersAddedSinceYouLastRead"
+    key is removed from the manga's dictionary.
     """
     mangaReadSans = []
     mangaResponses = []
@@ -128,9 +131,9 @@ def findMangaReadSans(mangas):
     Find mangaReadSans for given mangas.
 
     :param mangas: A dictionary of mangas with their details.
-    :type mangas: dict
+    :type mangas: Dict
     :return: A dictionary of mangas with updated mangaReadSans.
-    :rtype: dict
+    :rtype: Dict
     """
     for manga in mangas:
         if mangas[manga]["mangaReadSan"] != "":
@@ -163,8 +166,14 @@ def findMangaReadSans(mangas):
 
 def fetchMangaUpdates(mangas):
     """
-    :param mangas: A dictionary containing manga information. Each key represents a manga name, and the corresponding value is a dictionary containing the manga's details such as its latest chapter, latest chapter link, and latest release.
-    :return: The updated mangas dictionary with the latest chapter, chapter link, and release information for each manga.
+    :param mangas: A dictionary containing manga information.
+    Each key represents a manga name, and the corresponding
+    value is a dictionary containing the manga's details such as its latest chapter,
+    latest chapter link, and latest
+    release.
+    :return: The updated mangas dictionary with the latest chapter,
+    chapter link, and release information
+    for each manga.
     """
     mangaReadSans = set()
     for manga in mangas:
