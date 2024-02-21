@@ -169,8 +169,7 @@ def fetchMangaUpdates(mangas):
     :param mangas: A dictionary containing manga information.
     Each key represents a manga name, and the corresponding
     value is a dictionary containing the manga's details such as its latest chapter,
-    latest chapter link, and latest
-    release.
+    latest chapter link, and the latest release.
     :return: The updated mangas dictionary with the latest chapter,
     chapter link, and release information
     for each manga.
