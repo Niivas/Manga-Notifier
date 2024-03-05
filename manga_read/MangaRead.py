@@ -211,7 +211,7 @@ def fetchMangaUpdates(mangas):
                     mangas[mangaName]["latestRelease"] = MangaStats[i][2]
     except Exception:
         driver.quit()
-    driver.quit()
+    driver.quit() 
     return mangas
 
 
