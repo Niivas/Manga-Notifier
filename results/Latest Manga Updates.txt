@@ -9,11 +9,11 @@
         "mangaReadSan": "solo-leveling-manhwa"
     },
     "Shounen no Abyss": {
-        "latestChapter": 166.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/boys-abyss/chapter-166/",
+        "latestChapter": 167.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/boys-abyss/chapter-167/",
         "isFavorite": "no",
         "image": "https://i.imgur.com/yesybMv.png",
-        "latestRelease": "46 mins ago",
+        "latestRelease": "2 hours ago",
         "mangaJuiceSan": "shounen-no-abyss",
         "mangaReadSan": "boys-abyss"
     },
@@ -37,11 +37,11 @@
         "mangaReadSan": ""
     },
     "Wind Breaker": {
-        "latestChapter": 485.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/wind-breaker/chapter-485/",
+        "latestChapter": 487.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/wind-breaker/chapter-487/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/09/Read-Manhwa-16-193x278.jpg",
-        "latestRelease": "3 hours ago",
+        "latestRelease": "8 hours ago",
         "mangaJuiceSan": "wind-breaker",
         "mangaReadSan": "wind-breaker"
     },
@@ -55,11 +55,11 @@
         "mangaReadSan": "mercenary-enrollment"
     },
     "Blue Lock": {
-        "latestChapter": 253.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/blue-lock/chapter-253/",
+        "latestChapter": 254.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/blue-lock/chapter-254/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/09/Read-Manhwa-1-193x278.webp",
-        "latestRelease": "6 hours ago",
+        "latestRelease": "9 hours ago",
         "mangaJuiceSan": "blue-lock",
         "mangaReadSan": "blue-lock"
     },
@@ -118,8 +118,8 @@
         "mangaReadSan": "jibaku-shounen-hanako-kun"
     },
     "Eleceed": {
-        "latestChapter": 286.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/eleceed/chapter-286/",
+        "latestChapter": 287.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/eleceed/chapter-287/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/09/1615657818_198x0-193x278.jpg",
         "latestRelease": "8 hours ago",
@@ -127,11 +127,11 @@
         "mangaReadSan": "eleceed"
     },
     "Rent a Girlfriend": {
-        "latestChapter": 319.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/kanojo-okarishimasu/chapter-319/",
+        "latestChapter": 320.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/kanojo-okarishimasu/chapter-320/",
         "isFavorite": "yes",
         "image": "https://www.mangaread.org/wp-content/uploads/2022/07/19-1583500393-193x278.jpg",
-        "latestRelease": "8 hours ago",
+        "latestRelease": "10 hours ago",
         "mangaJuiceSan": "rent-a-girlfriend",
         "mangaReadSan": "kanojo-okarishimasu"
     },
@@ -172,11 +172,11 @@
         "mangaReadSan": "kaiju-no-8"
     },
     "Nano Machine": {
-        "latestChapter": 195.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/nano-machine/chapter-195/",
+        "latestChapter": 196.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/nano-machine/chapter-196/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2020/06/Read-Manhwa-7-193x278.jpg",
-        "latestRelease": "15 hours ago",
+        "latestRelease": "22 hours ago",
         "mangaJuiceSan": "nano-machine",
         "mangaReadSan": "nano-machine"
     },
@@ -201,11 +201,11 @@
         "chaptersAddedSinceYouLastRead": "0.0"
     },
     "Tower of God": {
-        "latestChapter": 612.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/tower-of-god-manhwa/chapter-612/",
+        "latestChapter": 613.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/tower-of-god-manhwa/chapter-613/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2019/11/Read-Manga-5-193x278.jpg",
-        "latestRelease": "2 days ago",
+        "latestRelease": "1 day ago",
         "mangaJuiceSan": "tower-of-god",
         "mangaReadSan": "tower-of-god-manhwa"
     },
@@ -228,53 +228,53 @@
         "mangaReadSan": "mato-seihei-no-slave"
     },
     "Skeleton Soldier Couldn't Protect The Dungeon": {
-        "latestChapter": 273.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/skeleton-soldier-couldnt-protect-the-dungeon/chapter-273/",
+        "latestChapter": 275.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/skeleton-soldier-couldnt-protect-the-dungeon/chapter-275/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2019/12/Manga-Read-27-193x278.jpg",
-        "latestRelease": "20 hours ago",
+        "latestRelease": "9 hours ago",
         "mangaJuiceSan": "skeleton-soldier-couldnt-protect-the-dungeon",
         "mangaReadSan": "skeleton-soldier-couldnt-protect-the-dungeon"
     },
     "The Eminence in Shadow": {
-        "latestChapter": 59.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/the-eminence-in-shadow/chapter-59/",
+        "latestChapter": 61.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/the-eminence-in-shadow/chapter-61/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2020/12/image-2020-12-22T195042.422-193x278.jpeg",
-        "latestRelease": "21 hours ago",
+        "latestRelease": "9 hours ago",
         "mangaJuiceSan": "the-eminence-in-shadow",
         "mangaReadSan": "the-eminence-in-shadow"
     },
     "More Than a Couple, But less than Lovers": {
-        "latestChapter": 68.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/fuufu-ijou-koibito-miman/chapter-68/",
+        "latestChapter": 69.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/fuufu-ijou-koibito-miman/chapter-69/",
         "isFavorite": "yes",
         "image": "https://www.mangaread.org/wp-content/uploads/2022/04/Komik-Fuufu-Ijou-Koibito-Miman-193x278.jpg",
-        "latestRelease": "2 days ago",
+        "latestRelease": "22 hours ago",
         "mangaJuiceSan": "fuufu-ijou-koibito-miman",
         "mangaReadSan": "fuufu-ijou-koibito-miman"
     },
     "Juujika no Rokunin": {
-        "latestChapter": 157.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/juujika-no-rokunin/chapter-157/",
+        "latestChapter": 158.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/juujika-no-rokunin/chapter-158/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/04/Read-Manga-7-193x278.jpg",
-        "latestRelease": "1 day ago",
+        "latestRelease": "11 hours ago",
         "mangaJuiceSan": "juujika-no-rokunin",
         "mangaReadSan": "juujika-no-rokunin"
     },
     "Omniscient Reader's Viewpoint": {
-        "latestChapter": 200.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/omniscient-readers-viewpoint/chapter-200/",
+        "latestChapter": 201.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/omniscient-readers-viewpoint/chapter-201/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2020/06/image-2021-02-11T014759.206-193x278.jpeg",
-        "latestRelease": "11 hours ago",
+        "latestRelease": "12 hours ago",
         "mangaJuiceSan": "omniscient-reader",
         "mangaReadSan": "omniscient-readers-viewpoint"
     },
     "Villain to Kill": {
-        "latestChapter": 138.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/villain-to-kill/chapter-138/",
+        "latestChapter": 139.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/villain-to-kill/chapter-139/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/02/Read-Manhwa-1-193x278.jpg",
         "latestRelease": "1 day ago",
@@ -327,11 +327,11 @@
         "mangaReadSan": "the-great-mage-returns-after-4000-years"
     },
     "Your Talent Is Mine": {
-        "latestChapter": 68.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/i-can-copy-talents/chapter-68/",
+        "latestChapter": 70.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/i-can-copy-talents/chapter-70/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/07/Read-Manhua-193x278.webp",
-        "latestRelease": "22 hours ago",
+        "latestRelease": "12 hours ago",
         "mangaJuiceSan": "your-talent-is-mine",
         "mangaReadSan": "i-can-copy-talents"
     },
@@ -354,11 +354,11 @@
         "mangaReadSan": "goblin-slayer"
     },
     "Lookism": {
-        "latestChapter": 490.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/lookism/chapter-490/",
+        "latestChapter": 491.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/lookism/chapter-491/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/10/Read-Manhwa-10-193x278.jpg",
-        "latestRelease": "15 hours ago",
+        "latestRelease": "21 hours ago",
         "mangaJuiceSan": "lookism",
         "mangaReadSan": "lookism"
     },
@@ -390,11 +390,11 @@
         "mangaReadSan": "one-piece"
     },
     "Chainsaw Man": {
-        "latestChapter": 156.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/chainsaw-man/chapter-156/",
+        "latestChapter": 157.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/chainsaw-man/chapter-157/",
         "isFavorite": "yes",
         "image": "https://www.mangaread.org/wp-content/uploads/2019/11/Read-Manga-21-193x278.jpg",
-        "latestRelease": "11 hours ago",
+        "latestRelease": "12 hours ago",
         "mangaJuiceSan": "chainsaw-man",
         "mangaReadSan": "chainsaw-man"
     },
@@ -408,11 +408,11 @@
         "mangaReadSan": "boruto-naruto-next-generations"
     },
     "Kingdom": {
-        "latestChapter": 787.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/kingdom/chapter-787/",
+        "latestChapter": 788.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/kingdom/chapter-788/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2023/05/Read-Manga-7-193x278.jpg",
-        "latestRelease": "12 hours ago",
+        "latestRelease": "2 days ago",
         "mangaJuiceSan": "kingdom",
         "mangaReadSan": "kingdom"
     },
@@ -444,8 +444,8 @@
         "mangaReadSan": "vagabond"
     },
     "The Return Of The Crazy Demon": {
-        "latestChapter": 110.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/return-of-the-mad-demon/chapter-110/",
+        "latestChapter": 111.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/return-of-the-mad-demon/chapter-111/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/07/Read-Manhwa-6-193x278.jpg",
         "latestRelease": "1 day ago",
@@ -453,11 +453,11 @@
         "mangaReadSan": "return-of-the-mad-demon"
     },
     "The Heavenly Demon Can't Live a Normal Life": {
-        "latestChapter": 110.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/the-heavenly-demon-cant-live-a-normal-life/chapter-110/",
+        "latestChapter": 111.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/the-heavenly-demon-cant-live-a-normal-life/chapter-111/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/06/Read-Manhwa-6-193x278.jpg",
-        "latestRelease": "2 days ago",
+        "latestRelease": "12 hours ago",
         "mangaJuiceSan": "the-heavenly-demon-cant-live-a-normal-life",
         "mangaReadSan": "the-heavenly-demon-cant-live-a-normal-life"
     },
@@ -480,20 +480,20 @@
         "mangaReadSan": "kuro-no-shoukanshi"
     },
     "The S-Classes That I Raised": {
-        "latestChapter": 126.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/the-s-classes-that-i-raised/chapter-126/",
+        "latestChapter": 127.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/the-s-classes-that-i-raised/chapter-127/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/11/Read-Manhwa-1-193x278.webp",
-        "latestRelease": "12 hours ago",
+        "latestRelease": "23 hours ago",
         "mangaJuiceSan": "the-s-classes-that-i-raised",
         "mangaReadSan": "the-s-classes-that-i-raised"
     },
     "Return of the Legendary Spear Knight": {
-        "latestChapter": 128.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/return-of-the-legendary-spear-knight/chapter-128/",
+        "latestChapter": 129.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/return-of-the-legendary-spear-knight/chapter-129/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/10/Read-Manhwa-193x278.png",
-        "latestRelease": "16 hours ago",
+        "latestRelease": "23 hours ago",
         "mangaJuiceSan": "return-of-the-legendary-spear-knight",
         "mangaReadSan": "return-of-the-legendary-spear-knight"
     },
@@ -526,20 +526,20 @@
         "mangaReadSan": "damn-reincarnation"
     },
     "I Obtained a Mythic Item": {
-        "latestChapter": 94.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/i-obtained-a-mythic-item/chapter-94/",
+        "latestChapter": 95.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/i-obtained-a-mythic-item/chapter-95/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2022/06/Read-Manhwa-193x278.webp",
-        "latestRelease": "11 hours ago",
+        "latestRelease": "19 hours ago",
         "mangaJuiceSan": "i-obtained-a-mythic-item",
         "mangaReadSan": "i-obtained-a-mythic-item"
     },
     "The World After the Fall": {
-        "latestChapter": 116.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/the-world-after-the-fall/chapter-116/",
+        "latestChapter": 117.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/the-world-after-the-fall/chapter-117/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2022/02/Read-Manhwa-193x278.jpg",
-        "latestRelease": "9 hours ago",
+        "latestRelease": "11 hours ago",
         "mangaJuiceSan": "the-world-after-the-fall",
         "mangaReadSan": "the-world-after-the-fall"
     },
@@ -562,11 +562,11 @@
         "mangaReadSan": "komi-san-wa-komyushou-desu"
     },
     "My Charms Are Wasted on Kuroiwa Medaka": {
-        "latestChapter": 124.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/my-cuteness-isnt-understood-by-kuroiwa-medaka/chapter-124/",
+        "latestChapter": 125.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/my-cuteness-isnt-understood-by-kuroiwa-medaka/chapter-125/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/11/Read-Manga-20-193x278.jpg",
-        "latestRelease": "4 hours ago",
+        "latestRelease": "1 day ago",
         "mangaJuiceSan": "my-charms-are-wasted-on-kuroiwa-medaka",
         "mangaReadSan": "my-cuteness-isnt-understood-by-kuroiwa-medaka"
     },
@@ -589,11 +589,11 @@
         "mangaReadSan": "isekai-kenkokuki-manga"
     },
     "Gachiakuta": {
-        "latestChapter": 87.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/gachi-akuta/chapter-87/",
+        "latestChapter": 88.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/gachi-akuta/chapter-88/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2022/03/Read-Manga-9-193x278.jpg",
-        "latestRelease": "16 hours ago",
+        "latestRelease": "1 day ago",
         "mangaJuiceSan": "gachiakuta",
         "mangaReadSan": "gachi-akuta"
     },
@@ -616,8 +616,8 @@
         "mangaReadSan": ""
     },
     "Leveling With The Gods": {
-        "latestChapter": 106.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/leveling-with-the-gods/chapter-106/",
+        "latestChapter": 107.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/leveling-with-the-gods/chapter-107/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/08/Read-Manhwa-7-193x278.jpg",
         "latestRelease": "11 hours ago",
@@ -625,11 +625,11 @@
         "mangaReadSan": "leveling-with-the-gods"
     },
     "Manager Kim": {
-        "latestChapter": 127.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/manager-kim/chapter-127/",
+        "latestChapter": 128.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/manager-kim/chapter-128/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/11/Read-Manhwa-193x278.png",
-        "latestRelease": "18 hours ago",
+        "latestRelease": "1 day ago",
         "mangaJuiceSan": "manager-kim",
         "mangaReadSan": "manager-kim"
     },
@@ -643,8 +643,8 @@
         "mangaReadSan": "fff-class-trashero"
     },
     "Quest Supremacy": {
-        "latestChapter": 127.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/quest-supremacy/chapter-127/",
+        "latestChapter": 128.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/quest-supremacy/chapter-128/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/11/Read-Manhwa-2-193x278.jpg",
         "latestRelease": "2 days ago",
@@ -679,29 +679,29 @@
         "mangaReadSan": "swordmasters-youngest-son"
     },
     "Magic Emperor": {
-        "latestChapter": 516.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/magic-emperor/chapter-516/",
+        "latestChapter": 517.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/magic-emperor/chapter-517/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2019/12/magic_cover.gif",
-        "latestRelease": "1 day ago",
+        "latestRelease": "11 hours ago",
         "mangaJuiceSan": "magic-emperor",
         "mangaReadSan": "magic-emperor"
     },
     "My Dad Is Too Strong": {
-        "latestChapter": 154.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/my-dad-is-too-strong/chapter-154/",
+        "latestChapter": 155.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/my-dad-is-too-strong/chapter-155/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2020/08/Read-Manga-193x278.webp",
-        "latestRelease": "6 hours ago",
+        "latestRelease": "9 hours ago",
         "mangaJuiceSan": "my-dad-is-too-strong",
         "mangaReadSan": "my-dad-is-too-strong"
     },
     "Solo Max-Level Newbie": {
-        "latestChapter": 142.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/solo-max-level-newbie/chapter-142/",
+        "latestChapter": 144.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/solo-max-level-newbie/chapter-144/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2021/07/Read.gif",
-        "latestRelease": "13 hours ago",
+        "latestRelease": "10 hours ago",
         "mangaJuiceSan": "solo-max-level-newbie",
         "mangaReadSan": "solo-max-level-newbie"
     },
@@ -742,8 +742,8 @@
         "mangaReadSan": "tensei-shitara-ken-deshita"
     },
     "Sleeping Ranker": {
-        "latestChapter": 103.0,
-        "latestChapterLink": "https://www.mangaread.org/manga/sleeping-ranker/chapter-103/",
+        "latestChapter": 104.0,
+        "latestChapterLink": "https://www.mangaread.org/manga/sleeping-ranker/chapter-104/",
         "isFavorite": "no",
         "image": "https://www.mangaread.org/wp-content/uploads/2022/03/Read-Manhwa-3-193x278.jpg",
         "latestRelease": "17 hours ago",
