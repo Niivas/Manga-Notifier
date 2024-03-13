@@ -1,5 +1,5 @@
 {
-    "Mangas last fetched time": "22:30 2024-03-08",
+    "Mangas last fetched time": "12:58 2024-03-12",
     "Mangas Added in the recent Fetch": "0",
     "Total favorite mangas": "12",
     "Current Total Mangas": "85",

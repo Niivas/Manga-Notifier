@@ -209,7 +209,7 @@ def fetchMangaUpdates(mangas):
                     mangas[mangaName]["latestChapter"] = str(currentChapter)
                     mangas[mangaName]["latestChapterLink"] = item
                     mangas[mangaName]["latestRelease"] = MangaStats[i][2]
-    except Exception:
+    except Exception():
         driver.quit()
     driver.quit() 
     return mangas
